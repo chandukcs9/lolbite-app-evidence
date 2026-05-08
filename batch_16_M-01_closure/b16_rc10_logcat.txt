@@ -1,0 +1,330 @@
+--------- beginning of main
+05-07 23:42:52.221 17496 17496 I com.amovi.app: Using CollectorTypeCMC GC.
+05-07 23:42:52.222 17496 17496 E com.amovi.app: Not starting debugger since process cannot load the jdwp agent.
+05-07 23:42:52.224 17496 17496 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-07 23:42:52.225 17496 17496 D ActivityThread: setConscryptValidator
+05-07 23:42:52.225 17496 17496 D ActivityThread: setConscryptValidator - put
+05-07 23:42:52.230 17496 17496 D nativeloader: Configuring clns-9 for other apk /system/framework/sec_camerax_impl.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/lib/arm64:/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.amovi.app
+05-07 23:42:52.230 17496 17496 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libAIDeflicker.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtfl
+05-07 23:42:52.239 17496 17496 D nativeloader: Configuring clns-10 for other apk /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/lib/arm64:/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.amovi.app
+05-07 23:42:52.239 17496 17496 D CompatChangeReporter: Compat change id reported: 202956589; UID 10376; state: ENABLED
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment: Currently set values for:
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment: com.amovi.app is not listed in per-application setting
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment: ANGLE allowlist from config: 
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment: com.amovi.app is not listed in ANGLE allowlist or settings, returning default
+05-07 23:42:52.241 17496 17496 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+05-07 23:42:52.244 17496 17496 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-07 23:42:52.245 17496 17496 I FirebaseInitProvider: FirebaseApp initialization successful
+05-07 23:42:52.245 17496 17496 D ReactNativeFirebaseApp: received application context.
+05-07 23:42:52.246 17496 17496 D CompatChangeReporter: Compat change id reported: 279646685; UID 10376; state: ENABLED
+05-07 23:42:52.247 17496 17496 W SoLoader: Initializing SoLoader: 0
+05-07 23:42:52.247 17496 17496 W SoLoader: Recording new base apk path: /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk
+05-07 23:42:52.247 17496 17496 W SoLoader: Previously recorded 0 base apk paths.
+05-07 23:42:52.247 17496 17496 D CompatChangeReporter: Compat change id reported: 312399441; UID 10376; state: ENABLED
+05-07 23:42:52.247 17496 17496 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+05-07 23:42:52.247 17496 17496 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+05-07 23:42:52.247 17496 17496 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a]]
+05-07 23:42:52.248 17496 17496 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/lib/arm64 flags = 0]]
+05-07 23:42:52.249 17496 17496 I SoLoader: init finish: 4 SO sources prepared
+05-07 23:42:52.249 17496 17496 W SoLoader: SoLoader initialized: 8
+05-07 23:42:52.252 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libc++_shared.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.253 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libjsi.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.255 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libfbjni.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.256 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreactnative.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a82c3edc
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a8394f40
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a83a79f8
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a83cce30
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a845f5b0
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a8479b24
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a8480458
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a849c070
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a85341a4
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a853b7e0
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a8542da4
+05-07 23:42:52.256 17496 17496 D jni_lib_merge: About to register 11 actual methods.
+05-07 23:42:52.259 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreact_codegen_rnscreens.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a82c3edc
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a8394f40
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a83a79f8
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a83cce30
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a845f5b0
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a8479b24
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a8480458
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a849c070
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a85341a4
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a853b7e0
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a8542da4
+05-07 23:42:52.259 17496 17496 D jni_lib_merge: About to register 11 actual methods.
+05-07 23:42:52.260 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreact_codegen_RNCSlider.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.262 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreact_codegen_rnsvg.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a82c3edc
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a8394f40
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a83a79f8
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a83cce30
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a845f5b0
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a8479b24
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a8480458
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a849c070
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a85341a4
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a853b7e0
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a8542da4
+05-07 23:42:52.262 17496 17496 D jni_lib_merge: About to register 11 actual methods.
+05-07 23:42:52.264 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.264 17496 17496 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libappmodules.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+--------- beginning of system
+05-07 23:42:52.266 17496 17496 D ActivityThread: com.amovi.app will use render engine as VK
+05-07 23:42:52.266 17496 17496 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-07 23:42:52.267 17496 17539 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+05-07 23:42:52.267 17496 17539 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+05-07 23:42:52.267 17496 17539 D vulkan  : searching for layers in '/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/lib/arm64'
+05-07 23:42:52.267 17496 17539 D vulkan  : searching for layers in '/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a'
+05-07 23:42:52.268 17496 17496 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-07 23:42:52.269 17496 17496 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+05-07 23:42:52.271 17496 17496 D CompatChangeReporter: Compat change id reported: 309578419; UID 10376; state: ENABLED
+05-07 23:42:52.271 17496 17496 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+05-07 23:42:52.272 17496 17496 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@e1448ec
+05-07 23:42:52.273 17496 17496 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+05-07 23:42:52.273 17496 17496 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+05-07 23:42:52.273 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+05-07 23:42:52.273 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+05-07 23:42:52.273 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+05-07 23:42:52.273 17496 17496 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4584 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4275 com.facebook.react.views.view.WindowUtilKt.enableEdgeToEdge:116 java.lang.reflect.Method.invoke:-2 expo.modules.kotlin.edgeToEdge.EdgeToEdgePackage$createReactActivityLifecycleListeners$1.onCreate:113 
+05-07 23:42:52.273 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+05-07 23:42:52.273 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+05-07 23:42:52.274 17496 17539 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+05-07 23:42:52.275 17496 17496 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+05-07 23:42:52.275 17496 17496 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-07 23:42:52.275 17496 17539 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+05-07 23:42:52.275 17496 17539 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+05-07 23:42:52.275 17496 17496 D CompatChangeReporter: Compat change id reported: 352594277; UID 10376; state: ENABLED
+05-07 23:42:52.276 17496 17496 D ViewRootImpl: desktopMode is false
+05-07 23:42:52.276 17496 17496 D CompatChangeReporter: Compat change id reported: 349153669; UID 10376; state: ENABLED
+05-07 23:42:52.277 17496 17496 I ViewRootImpl: dVRR is disabled
+05-07 23:42:52.277 17496 17496 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+05-07 23:42:52.277 17496 17496 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+05-07 23:42:52.278 17496 17539 D qdgralloc: Fetching IMapper5 from QtiMapper5
+05-07 23:42:52.278 17496 17547 D qdgralloc: Fetching IMapper5 from QtiMapper5
+05-07 23:42:52.279 17496 17542 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libhermes.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.280 17496 17542 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libhermestooling.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x739eaa74b0
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x739eaae900
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x739eaaf0ec
+05-07 23:42:52.280 17496 17542 D jni_lib_merge: About to register 3 actual methods.
+05-07 23:42:52.280 17496 17539 I SnapAlloc: Graphics lib is available
+05-07 23:42:52.282 17496 17542 D RNFBAppCheck: isAppCheckCollectionEnabled via RNFBMeta: true
+05-07 23:42:52.282 17496 17542 D RNFBAppCheck: isAppCheckTokenRefreshEnabled final value: true
+05-07 23:42:52.283 17496 17539 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Build Date              : 07/21/25
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Local Branch            : 
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Remote Branch           : NONE
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-07 23:42:52.284 17496 17542 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libexpo-av.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes5.dex): ok
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Driver Version          : 0800.40.1
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: PFP                     : 0x01500077
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: ME                      : 0x01500014
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Application Name    : android framework
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Application Version : 0x00000000
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Engine Name         : android framework
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Engine Version      : 0x00000000
+05-07 23:42:52.284 17496 17539 I AdrenoVK-0: Api Version         : 0x00401000
+05-07 23:42:52.286 17496 17539 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+05-07 23:42:52.286 17496 17539 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-07 23:42:52.288 17496 17496 D InputTransport: Input channel constructed: '8f88ac1', fd=119
+05-07 23:42:52.288 17496 17496 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-07 23:42:52.288 17496 17542 I ExpoModulesCore: ✅ AppContext was initialized
+05-07 23:42:52.288 17496 17496 I VRI[MainActivity]@3ae017c: synced displayState. AttachInfo displayState=2
+05-07 23:42:52.288 17496 17496 I VRI[MainActivity]@3ae017c: setView = com.android.internal.policy.DecorView@3009a19 IsHRR=false mFlingFrameRateChange=0 TM=true
+05-07 23:42:52.288 17496 17496 I IDS_TAG : Starting IDS observe window
+05-07 23:42:52.288 17496 17496 I IDS_TAG : Getting Shared Preference for com.amovi.app.MainApplication@5e6b333 uid = 10376
+05-07 23:42:52.289 17496 17496 I IDS_TAG : App com.amovi.app.MainApplication@5e6b333 has not finished training
+05-07 23:42:52.289 17496 17539 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-07 23:42:52.289 17496 17496 I IDS_TAG : Closing IDS observe window
+05-07 23:42:52.289 17496 17496 I IDS_TAG : Getting Shared Preference for com.amovi.app.MainApplication@5e6b333 uid = 10376
+05-07 23:42:52.289 17496 17496 I IDS_TAG : IDS count updated to 1 for com.amovi.app.MainApplication@5e6b333
+05-07 23:42:52.291 17496 17496 E com.amovi.app: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+05-07 23:42:52.291 17496 17496 I BufferQueueProducer: [](id:445800000000,api:0,p:-424698704,c:17496) setDequeueTimeout:2077252342
+05-07 23:42:52.291 17496 17496 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@3ae017c mNativeObject= 0xb4000075c6b11290 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+05-07 23:42:52.291 17496 17496 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae017c mNativeObject= 0xb4000075c6b11290 sc.mNativeObject= 0xb4000075b6aeeb90 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-07 23:42:52.292 17496 17496 I VRI[MainActivity]@3ae017c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=1 res=0x3 s={true 0xb4000075f6b0dd30} ch=true seqId=0
+05-07 23:42:52.292 17496 17496 I VRI[MainActivity]@3ae017c: performConfigurationChange setNightDimText nightDimLevel=0
+05-07 23:42:52.292 17496 17496 D VRI[MainActivity]@3ae017c: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000075f6b0dd30} hwInitialized=true
+05-07 23:42:52.292 17496 17496 D VRI[MainActivity]@3ae017c: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+05-07 23:42:52.292 17496 17496 D VRI[MainActivity]@3ae017c: Canceling draw. cancelDueToPreDrawListener=true cancelDueToSync=false
+05-07 23:42:52.300 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+05-07 23:42:52.300 17496 17542 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+05-07 23:42:52.300 17496 17542 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+05-07 23:42:52.308 17496 17496 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-07 23:42:52.308 17496 17496 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+05-07 23:42:52.308 17496 17496 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-07 23:42:52.308 17496 17496 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-07 23:42:52.309 17496 17543 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libexpo-modules-core.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.312 17496 17543 D CompatChangeReporter: Compat change id reported: 63938206; UID 10376; state: ENABLED
+05-07 23:42:52.312 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+05-07 23:42:52.313 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.lottie.LottieAnimationViewManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+05-07 23:42:52.314 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+05-07 23:42:52.315 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+05-07 23:42:52.315 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+05-07 23:42:52.315 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativegooglesignin.RNGoogleSigninButtonViewManager
+05-07 23:42:52.315 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+05-07 23:42:52.320 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+05-07 23:42:52.320 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.VirtualViewManager$RenderableShadowNode
+05-07 23:42:52.320 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeMergeManager
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeGaussianBlurManager
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+05-07 23:42:52.321 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+05-07 23:42:52.322 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+05-07 23:42:52.322 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+05-07 23:42:52.322 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeColorMatrixManager
+05-07 23:42:52.322 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+05-07 23:42:52.322 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+05-07 23:42:52.323 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+05-07 23:42:52.323 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+05-07 23:42:52.323 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeBlendManager
+05-07 23:42:52.323 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+05-07 23:42:52.324 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+05-07 23:42:52.325 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FilterManager
+05-07 23:42:52.325 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+05-07 23:42:52.325 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+05-07 23:42:52.325 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+05-07 23:42:52.326 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+05-07 23:42:52.326 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+05-07 23:42:52.326 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+05-07 23:42:52.326 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+05-07 23:42:52.326 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+05-07 23:42:52.327 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeFloodManager
+05-07 23:42:52.327 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+05-07 23:42:52.327 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+05-07 23:42:52.327 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+05-07 23:42:52.327 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeCompositeManager
+05-07 23:42:52.328 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+05-07 23:42:52.328 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+05-07 23:42:52.328 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+05-07 23:42:52.328 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+05-07 23:42:52.329 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+05-07 23:42:52.329 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+05-07 23:42:52.329 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+05-07 23:42:52.329 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeOffsetManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+05-07 23:42:52.330 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+05-07 23:42:52.331 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+05-07 23:42:52.331 17496 17543 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+05-07 23:42:52.331 17496 17543 E AVManager: Cannot install JSI bindings for AV module because JS context is not available
+05-07 23:42:52.332 17496 17543 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+05-07 23:42:52.332 17496 17543 I ExpoModulesCore: ✅ JSI interop was installed
+05-07 23:42:52.334 17496 17543 I ExpoModulesCore: ✅ Constants were exported
+05-07 23:42:52.340 17496 17543 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libworklets.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.345 17496 17543 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libreanimated.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.363 17496 17543 V AsyncStorageExpoMigration: No scoped database found
+05-07 23:42:52.368 17496 17543 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4736)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5461)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5428)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5402)] [com.reactnativecommunity.netinfo.NetworkCallbackConnectivityReceiver.register(NetworkCallbackConnectivityReceiver.java:62)] [com.reactnativecommunity.netinfo.NetInfoModule.initialize(NetInfoModule.java:40)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getOrCreateModule(TurboModuleManager.kt:259)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getModule(TurboModuleManager.kt:201)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getLegacyCxxModule(TurboModuleManager.kt:127)] [com.facebook.jni.NativeRunnable.run(Native Method)]
+05-07 23:42:52.372 17496 17543 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/librnscreens.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes5.dex): ok
+05-07 23:42:52.378 17496 17543 W ReactNativeJS: [expo-av]: Expo AV has been deprecated and will be removed in SDK 54. Use the `expo-audio` and `expo-video` packages to replace the required functionality.
+05-07 23:42:52.389 17496 17543 W ReactNativeJS: This method is deprecated (as well as all React Native Firebase namespaced API) and will be removed in the next major release as part of move to match Firebase Web modular SDK API. Please see migration guide for more details: https://rnfirebase.io/migrating-to-v22 Please use `getApp()` instead.
+05-07 23:42:52.389 17496 17543 W ReactNativeJS: This method is deprecated (as well as all React Native Firebase namespaced API) and will be removed in the next major release as part of move to match Firebase Web modular SDK API. Please see migration guide for more details: https://rnfirebase.io/migrating-to-v22 Please use `getApp()` instead.
+05-07 23:42:52.389 17496 17544 D RNFBAppCheck: configureProvider - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-07 23:42:52.389 17496 17544 D RNFBAppCheck: ProviderFactory::configure - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-07 23:42:52.389 17496 17544 D RNFBAppCheck: Provider::configure with appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-07 23:42:52.389 17496 17543 I ReactNativeJS: Running "main"
+05-07 23:42:52.390 17496 17544 D RNFBAppCheck: ProviderFactory::create - fetching provider for app [DEFAULT]
+05-07 23:42:52.397 17496 17543 D nativeloader: Load /data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!/lib/arm64-v8a/libgesturehandler.so using class loader ns clns-10 (caller=/data/app/~~r1TjN7R_-QxuYjAeM4FPGQ==/com.amovi.app-tSP0RRXOhOwW9CDVvYtCmg==/base.apk!classes3.dex): ok
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a82c3edc
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a8394f40
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a83a79f8
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a83cce30
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a845f5b0
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a8479b24
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a8480458
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a849c070
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a85341a4
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a853b7e0
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a8542da4
+05-07 23:42:52.397 17496 17543 D jni_lib_merge: About to register 11 actual methods.
+05-07 23:42:52.399 17496 17496 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{c8a4c0c V.E...... ......ID 0,0-1080,2340 #1}
+05-07 23:42:52.400 17496 17496 D VRI[MainActivity]@3ae017c: Setup new sync=wmsSync-VRI[MainActivity]@3ae017c#0
+05-07 23:42:52.400 17496 17496 I VRI[MainActivity]@3ae017c: Creating new active sync group VRI[MainActivity]@3ae017c#1
+05-07 23:42:52.400 17496 17496 D VRI[MainActivity]@3ae017c: Draw frame after cancel
+05-07 23:42:52.400 17496 17496 D VRI[MainActivity]@3ae017c: registerCallbacksForSync syncBuffer=false
+05-07 23:42:52.400 17496 17547 D VRI[MainActivity]@3ae017c: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-07 23:42:52.400 17496 17547 I VRI[MainActivity]@3ae017c: mWNT: t=0xb400007636b37c10 mBlastBufferQueue=0xb4000075c6b11290 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+05-07 23:42:52.400 17496 17547 I VRI[MainActivity]@3ae017c: Setting up sync and frameCommitCallback
+05-07 23:42:52.401 17496 17539 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+05-07 23:42:52.470 17496 17539 I BLASTBufferQueue: [VRI[MainActivity]@3ae017c#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-07 23:42:52.470 17496 17539 I SurfaceComposerClient: apply transaction with the first frame. layerId: 4408, bufferData(ID: 75144747810819, frameNumber: 1)
+05-07 23:42:52.470 17496 17539 I VRI[MainActivity]@3ae017c: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-07 23:42:52.470 17496 17539 D HWUI    : CFMS:: SetUp Pid : 17496    Tid : 17539
+05-07 23:42:52.470 17496 17496 D VRI[MainActivity]@3ae017c: reportDrawFinished seqId=0
+05-07 23:42:52.483 17496 17496 W [RNScreens]: backTitleVisible prop is not available on Android
+05-07 23:42:52.483 17496 17496 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-07 23:42:52.483 17496 17496 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-07 23:42:52.483 17496 17496 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-07 23:42:52.483 17496 17496 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-07 23:42:52.483 17496 17496 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-07 23:42:52.484 17496 17544 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-07 23:42:52.484 17496 17544 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-07 23:42:52.535 17496 17496 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae017c mNativeObject= 0xb4000075c6b11290 sc.mNativeObject= 0xb4000075b6aeeb90 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-07 23:42:52.535 17496 17496 I VRI[MainActivity]@3ae017c: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b0dd30} ch=false seqId=0
+05-07 23:42:52.535 17496 17496 I VRI[MainActivity]@3ae017c: registerCallbackForPendingTransactions
+05-07 23:42:52.542 17496 17496 D VRI[MainActivity]@3ae017c: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000075f6b0dd30}
+05-07 23:42:52.543 17496 17547 I VRI[MainActivity]@3ae017c: mWNT: t=0xb400007636b43ad0 mBlastBufferQueue=0xb4000075c6b11290 fn= 3 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-07 23:42:52.543 17496 17496 D InputMethodManagerUtils: startInputInner - Id : 0
+05-07 23:42:52.543 17496 17496 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-07 23:42:52.544 17496 17496 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-07 23:42:52.544 17496 17496 D InsetsController: hide(ime(), fromIme=false)
+05-07 23:42:52.544 17496 17496 I ImeTracker: com.amovi.app:bf743934: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-07 23:42:52.545 17496 17511 D InputTransport: Input channel constructed: 'ClientS', fd=162
+05-07 23:42:55.010 17496 17496 D ScrollView: initGoToTop
+05-07 23:42:55.010 17496 17496 W [RNScreens]: backTitleVisible prop is not available on Android
+05-07 23:42:55.010 17496 17496 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-07 23:42:55.010 17496 17496 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-07 23:42:55.010 17496 17496 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-07 23:42:55.010 17496 17496 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-07 23:42:55.010 17496 17496 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-07 23:42:55.015 17496 17544 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-07 23:42:57.406 17496 17642 D ProfileInstaller: Installing profile for com.amovi.app
+05-07 23:43:03.106 17496 17506 W com.amovi.app: Cleared Reference was only reachable from finalizer (only reported once)
