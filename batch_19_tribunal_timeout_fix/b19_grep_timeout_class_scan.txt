@@ -1,0 +1,20 @@
+=== batch_19 T2 — class-level scan: full-repo grep usage in .ai-team/*.sh ===
+
+Refreshed grep with broader regex `grep -rn.*\.` excluding `exclude-dir|git grep`.
+
+Raw match count: 34 lines.
+
+Analysis: 34 lines includes false positives from `--include="*.js"` and similar patterns where `.` is a literal in the include glob, NOT full-repo recursion. The regex matched the dot inside the include filter.
+
+ACTUAL full-repo `.` recursion (the timeout-vulnerable pattern): only at tribunal.sh lines 92, 96, 104 — exactly the 3 lines being patched in T3:
+- line 92: grep -rn "npx " . 2>/dev/null | grep -v ...
+- line 96: grep -rn "EXPO_OFFLINE" . 2>/dev/null | grep -v ...
+- line 104: grep -rn "DevBypassScreen" . 2>/dev/null | grep -v ...
+
+ALL OTHER 31 grep -rn invocations in .ai-team/*.sh files use scoped paths:
+- final-tribunal.sh: src/
+- reality-check.sh: src/screens/, src/components/, src/constants/config.js
+- test-loop.sh: "$SRC" (= src) variable
+- tribunal.sh other checks: src/, src/screens/Splash*, src/screens/onboarding, src/screens/main/vibelab/, src/screens/main/, src/, src/navigation
+
+CONCLUSION: 0 timeout-vulnerable scripts beyond the 3 tribunal.sh lines being patched. No additional D-19-NN routing required for the class.
