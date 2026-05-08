@@ -1,0 +1,3 @@
+[2026-05-08 08:44:13] evidence-budget-rotate (batch 18)
+Screenshots total: 74MB / 5GB threshold
+✅ Under threshold; no rotation
