@@ -1,0 +1,48 @@
+═══ AMOVI TRIBUNAL GATE — Phase 20 — 2026-05-08 19:06:18 ═══
+
+👤 TESTER 1: GEN Z USER
+  ⚠️  T1-2: Chips lowercase (manual visual check)
+  ⚠️  T1-3: Wordmark amovi. (manual screenshot inspection)
+  ✅ T1-4: Splash single CTA
+  ✅ T1-6: Food picks empty
+  ✅ T1-7: Quiz no counter
+  ✅ T1-8: Meme Marathon no done
+  ✅ T1-10: Move used as user-noun
+
+🔧 TESTER 2: CTO
+  ✅ T2-2: No colors.js imports
+  ✅ T2-3: theme.js has Warm Ember
+  ✅ T2-4: No old cold hex
+  ✅ T2-5: No Web CSS in RN
+  ✅ T2-6: 60 screens import theme
+  ✅ T2-7: firestore.rules exists
+  ✅ T2-10: No dev_user_001 (M-01)
+  ✅ T2-12: appVersionSource = remote
+
+📋 TESTER 3: CPO
+  ✅ T3-1: IT'S A MOVE present
+  ✅ T3-2: No DM (Slide In)
+  ✅ T3-3: Control Room (no Settings)
+  ✅ T3-4: 5 nav tabs
+  ✅ T3-5: 7 Vibe Lab files (4 canonical, M-05 reconciles)
+
+═══ TRIBUNAL VERDICT ═══
+T1 Gen Z User: 7 PASS / 3 FAIL
+T2 CTO:        8 PASS / 4 FAIL
+T3 CPO:        5 PASS / 1 FAIL
+TOTAL: 20 / 28 (8 FAIL)
+
+❌ REJECTED — 8 issues:
+
+  ❌ T1-1: 1 corporate buzzword matches
+  ❌ T1-5: looking for in onboarding (2)
+  ❌ T1-9: Match-phrase used (1)
+
+  ❌ T2-1: TYPOGRAPHY imported (1) CRASH
+  ❌ T2-8: npx in code (39)
+  ❌ T2-9: EXPO_OFFLINE in code (5)
+  ❌ T2-11: DevBypassScreen ref (8)
+
+  ❌ T3-6: 6 onboarding screens
+
+CC must fix all issues, then re-run.

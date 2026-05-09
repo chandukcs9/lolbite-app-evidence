@@ -1,0 +1,1049 @@
+--------- beginning of main
+05-08 18:59:10.380 27076 27076 I com.amovi.app: Using CollectorTypeCMC GC.
+05-08 18:59:10.381 27076 27076 E com.amovi.app: Not starting debugger since process cannot load the jdwp agent.
+05-08 18:59:10.383 27076 27076 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-08 18:59:10.384 27076 27076 D ActivityThread: setConscryptValidator
+05-08 18:59:10.384 27076 27076 D ActivityThread: setConscryptValidator - put
+05-08 18:59:10.390 27076 27076 D nativeloader: Configuring clns-9 for other apk /system/framework/sec_camerax_impl.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/lib/arm64:/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.amovi.app
+05-08 18:59:10.390 27076 27076 D nativeloader: Extending system_exposed_libraries: libhumantracking.arcsoft.so:libface_recognition.arcsoft.so:libpic_best.arcsoft.so:libPortraitDistortionCorrection.arcsoft.so:libPortraitDistortionCorrectionCali.arcsoft.so:libface_landmark.arcsoft.so:libFacialStickerEngine.arcsoft.so:libfrtracking_engine.arcsoft.so:libFaceRecognition.arcsoft.so:libveengine.arcsoft.so:lib_pet_detection.arcsoft.so:libae_bracket_hdr.arcsoft.so:libhybrid_high_dynamic_range.arcsoft.so:libimage_enhancement.arcsoft.so:libFacialAttributeDetection.arcsoft.so:libobjectcapture_jni.arcsoft.so:libobjectcapture.arcsoft.so:libmultisourceseparator.audio.samsung.so:libaudiomirroring_jni.audiomirroring.samsung.so:libBeauty_v4.camera.samsung.so:libexifa.camera.samsung.so:libjpega.camera.samsung.so:libOpenCv.camera.samsung.so:libAIDeflicker.camera.samsung.so:libaifrcInterface.camera.samsung.so:libBestPhoto.camera.samsung.so:libC2paDps.camera.samsung.so:libVideoClassifier.camera.samsung.so:libImageScreener.camera.samsung.so:libMyFilter.camera.samsung.so:libtfl
+05-08 18:59:10.391 27076 27076 D nativeloader: Configuring clns-10 for other apk /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/lib/arm64:/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.amovi.app
+05-08 18:59:10.392 27076 27076 D CompatChangeReporter: Compat change id reported: 202956589; UID 10376; state: ENABLED
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment: Currently set values for:
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment: com.amovi.app is not listed in per-application setting
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment: ANGLE allowlist from config: 
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment: com.amovi.app is not listed in ANGLE allowlist or settings, returning default
+05-08 18:59:10.394 27076 27076 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+05-08 18:59:10.400 27076 27076 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+05-08 18:59:10.402 27076 27076 I FirebaseInitProvider: FirebaseApp initialization successful
+05-08 18:59:10.402 27076 27076 D ReactNativeFirebaseApp: received application context.
+05-08 18:59:10.403 27076 27076 D CompatChangeReporter: Compat change id reported: 279646685; UID 10376; state: ENABLED
+05-08 18:59:10.405 27076 27076 W SoLoader: Initializing SoLoader: 0
+05-08 18:59:10.405 27076 27076 W SoLoader: Recording new base apk path: /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk
+05-08 18:59:10.405 27076 27076 W SoLoader: Previously recorded 0 base apk paths.
+05-08 18:59:10.405 27076 27076 D CompatChangeReporter: Compat change id reported: 312399441; UID 10376; state: ENABLED
+05-08 18:59:10.405 27076 27076 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+05-08 18:59:10.405 27076 27076 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+05-08 18:59:10.405 27076 27076 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a]]
+05-08 18:59:10.407 27076 27076 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/lib/arm64 flags = 0]]
+05-08 18:59:10.407 27076 27076 I SoLoader: init finish: 4 SO sources prepared
+05-08 18:59:10.407 27076 27076 W SoLoader: SoLoader initialized: 8
+05-08 18:59:10.411 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libc++_shared.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.412 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libjsi.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.414 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libfbjni.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.415 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreactnative.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a62e0edc
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a63b1f40
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a63c49f8
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a63e9e30
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a647c5b0
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a6496b24
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a649d458
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a64b9070
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a65511a4
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a65587e0
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a655fda4
+05-08 18:59:10.415 27076 27076 D jni_lib_merge: About to register 11 actual methods.
+05-08 18:59:10.418 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreact_codegen_rnscreens.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a62e0edc
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a63b1f40
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a63c49f8
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a63e9e30
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a647c5b0
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a6496b24
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a649d458
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a64b9070
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a65511a4
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a65587e0
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a655fda4
+05-08 18:59:10.418 27076 27076 D jni_lib_merge: About to register 11 actual methods.
+05-08 18:59:10.420 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreact_codegen_RNCSlider.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.422 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreact_codegen_rnsvg.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a62e0edc
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a63b1f40
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a63c49f8
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a63e9e30
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a647c5b0
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a6496b24
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a649d458
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a64b9070
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a65511a4
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a65587e0
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a655fda4
+05-08 18:59:10.422 27076 27076 D jni_lib_merge: About to register 11 actual methods.
+05-08 18:59:10.423 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.424 27076 27076 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libappmodules.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+--------- beginning of system
+05-08 18:59:10.426 27076 27076 D ActivityThread: com.amovi.app will use render engine as VK
+05-08 18:59:10.426 27076 27076 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-08 18:59:10.427 27076 27115 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+05-08 18:59:10.427 27076 27115 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+05-08 18:59:10.427 27076 27115 D vulkan  : searching for layers in '/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/lib/arm64'
+05-08 18:59:10.427 27076 27115 D vulkan  : searching for layers in '/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a'
+05-08 18:59:10.429 27076 27076 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-08 18:59:10.430 27076 27076 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+05-08 18:59:10.432 27076 27115 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+05-08 18:59:10.432 27076 27115 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+05-08 18:59:10.432 27076 27115 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+05-08 18:59:10.433 27076 27076 D CompatChangeReporter: Compat change id reported: 309578419; UID 10376; state: ENABLED
+05-08 18:59:10.434 27076 27076 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+05-08 18:59:10.434 27076 27076 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@b63f74a
+05-08 18:59:10.434 27076 27115 D qdgralloc: Fetching IMapper5 from QtiMapper5
+05-08 18:59:10.438 27076 27076 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+05-08 18:59:10.438 27076 27076 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+05-08 18:59:10.438 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+05-08 18:59:10.438 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+05-08 18:59:10.438 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+05-08 18:59:10.438 27076 27076 D PhoneWindow: forceLight changed to false [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4584 com.android.internal.policy.PhoneWindow.setNavigationBarColor:4275 com.facebook.react.views.view.WindowUtilKt.enableEdgeToEdge:116 java.lang.reflect.Method.invoke:-2 expo.modules.kotlin.edgeToEdge.EdgeToEdgePackage$createReactActivityLifecycleListeners$1.onCreate:113 
+05-08 18:59:10.439 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+05-08 18:59:10.439 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+05-08 18:59:10.439 27076 27115 I SnapAlloc: Graphics lib is available
+05-08 18:59:10.440 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+05-08 18:59:10.440 27076 27076 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-08 18:59:10.440 27076 27076 D CompatChangeReporter: Compat change id reported: 352594277; UID 10376; state: ENABLED
+05-08 18:59:10.441 27076 27076 D ViewRootImpl: desktopMode is false
+05-08 18:59:10.441 27076 27076 D CompatChangeReporter: Compat change id reported: 349153669; UID 10376; state: ENABLED
+05-08 18:59:10.444 27076 27076 I ViewRootImpl: dVRR is disabled
+05-08 18:59:10.444 27076 27115 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 18:59:10.444 27076 27076 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1080x2340 mLargest wxh=0x0
+05-08 18:59:10.444 27076 27076 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1080x2340)
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Build Date              : 07/21/25
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Local Branch            : 
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Remote Branch           : NONE
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Driver Version          : 0800.40.1
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: PFP                     : 0x01500077
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: ME                      : 0x01500014
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Application Name    : android framework
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Application Version : 0x00000000
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Engine Name         : android framework
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Engine Version      : 0x00000000
+05-08 18:59:10.446 27076 27115 I AdrenoVK-0: Api Version         : 0x00401000
+05-08 18:59:10.447 27076 27120 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libhermes.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.447 27076 27120 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libhermestooling.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x73aa4634b0
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x73aa46a900
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x73aa46b0ec
+05-08 18:59:10.447 27076 27120 D jni_lib_merge: About to register 3 actual methods.
+05-08 18:59:10.448 27076 27115 D HWUI    : setMaxSurfaceArea requested wxh=(1080,2340) requestedSurfaceArea(2527200) mMaxSurfaceArea(2073600)
+05-08 18:59:10.448 27076 27115 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-08 18:59:10.450 27076 27076 D InputTransport: Input channel constructed: 'b325c03', fd=114
+05-08 18:59:10.450 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 18:59:10.450 27076 27076 I VRI[MainActivity]@3ae448b: synced displayState. AttachInfo displayState=2
+05-08 18:59:10.450 27076 27076 I VRI[MainActivity]@3ae448b: setView = com.android.internal.policy.DecorView@1ef0d6 IsHRR=false mFlingFrameRateChange=0 TM=true
+05-08 18:59:10.450 27076 27076 I IDS_TAG : Starting IDS observe window
+05-08 18:59:10.450 27076 27076 I IDS_TAG : Getting Shared Preference for com.amovi.app.MainApplication@2bd0684 uid = 10376
+05-08 18:59:10.451 27076 27076 I IDS_TAG : App com.amovi.app.MainApplication@2bd0684 has not finished training
+05-08 18:59:10.451 27076 27115 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-08 18:59:10.451 27076 27076 I IDS_TAG : Closing IDS observe window
+05-08 18:59:10.451 27076 27076 I IDS_TAG : Getting Shared Preference for com.amovi.app.MainApplication@2bd0684 uid = 10376
+05-08 18:59:10.451 27076 27076 I IDS_TAG : IDS count updated to 1 for com.amovi.app.MainApplication@2bd0684
+05-08 18:59:10.452 27076 27120 D RNFBAppCheck: isAppCheckCollectionEnabled via RNFBMeta: true
+05-08 18:59:10.452 27076 27120 D RNFBAppCheck: isAppCheckTokenRefreshEnabled final value: true
+05-08 18:59:10.454 27076 27076 E com.amovi.app: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+05-08 18:59:10.454 27076 27076 I BufferQueueProducer: [](id:69c400000000,api:0,p:-424690640,c:27076) setDequeueTimeout:2077252342
+05-08 18:59:10.454 27076 27076 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+05-08 18:59:10.454 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 18:59:10.454 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x3 s={true 0xb4000075f6b02280} ch=true seqId=0
+05-08 18:59:10.454 27076 27120 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libexpo-av.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes5.dex): ok
+05-08 18:59:10.454 27076 27076 I VRI[MainActivity]@3ae448b: performConfigurationChange setNightDimText nightDimLevel=0
+05-08 18:59:10.455 27076 27076 D VRI[MainActivity]@3ae448b: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000075f6b02280} hwInitialized=true
+05-08 18:59:10.455 27076 27076 D VRI[MainActivity]@3ae448b: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+05-08 18:59:10.455 27076 27076 D VRI[MainActivity]@3ae448b: Canceling draw. cancelDueToPreDrawListener=true cancelDueToSync=false
+05-08 18:59:10.469 27076 27120 I ExpoModulesCore: ✅ AppContext was initialized
+05-08 18:59:10.473 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 18:59:10.473 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 18:59:10.479 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+05-08 18:59:10.479 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+05-08 18:59:10.479 27076 27120 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+05-08 18:59:10.481 27076 27076 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-08 18:59:10.481 27076 27076 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+05-08 18:59:10.489 27076 27121 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libexpo-modules-core.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.497 27076 27121 D CompatChangeReporter: Compat change id reported: 63938206; UID 10376; state: ENABLED
+05-08 18:59:10.498 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+05-08 18:59:10.499 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+05-08 18:59:10.499 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabScreenViewManager
+05-08 18:59:10.500 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+05-08 18:59:10.500 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+05-08 18:59:10.500 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.slider.ReactSliderManager
+05-08 18:59:10.501 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.TabsHostViewManager
+05-08 18:59:10.501 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+05-08 18:59:10.501 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+05-08 18:59:10.501 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+05-08 18:59:10.501 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+05-08 18:59:10.502 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
+05-08 18:59:10.502 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+05-08 18:59:10.502 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.lottie.LottieAnimationViewManager
+05-08 18:59:10.502 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+05-08 18:59:10.503 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+05-08 18:59:10.503 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+05-08 18:59:10.504 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+05-08 18:59:10.504 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+05-08 18:59:10.504 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativegooglesignin.RNGoogleSigninButtonViewManager
+05-08 18:59:10.504 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+05-08 18:59:10.511 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+05-08 18:59:10.511 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.VirtualViewManager$RenderableShadowNode
+05-08 18:59:10.511 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeMergeManager
+05-08 18:59:10.512 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+05-08 18:59:10.512 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+05-08 18:59:10.512 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+05-08 18:59:10.512 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeGaussianBlurManager
+05-08 18:59:10.513 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+05-08 18:59:10.513 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+05-08 18:59:10.513 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+05-08 18:59:10.514 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+05-08 18:59:10.514 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+05-08 18:59:10.514 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeColorMatrixManager
+05-08 18:59:10.515 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+05-08 18:59:10.515 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+05-08 18:59:10.515 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+05-08 18:59:10.516 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+05-08 18:59:10.516 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeBlendManager
+05-08 18:59:10.516 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+05-08 18:59:10.517 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+05-08 18:59:10.517 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+05-08 18:59:10.517 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+05-08 18:59:10.517 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+05-08 18:59:10.518 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+05-08 18:59:10.518 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+05-08 18:59:10.519 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FilterManager
+05-08 18:59:10.519 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+05-08 18:59:10.519 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+05-08 18:59:10.520 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+05-08 18:59:10.520 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+05-08 18:59:10.520 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+05-08 18:59:10.521 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+05-08 18:59:10.521 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+05-08 18:59:10.521 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+05-08 18:59:10.521 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeFloodManager
+05-08 18:59:10.522 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+05-08 18:59:10.522 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+05-08 18:59:10.522 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+05-08 18:59:10.523 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeCompositeManager
+05-08 18:59:10.523 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+05-08 18:59:10.523 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+05-08 18:59:10.524 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+05-08 18:59:10.524 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+05-08 18:59:10.524 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+05-08 18:59:10.525 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+05-08 18:59:10.525 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+05-08 18:59:10.526 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeOffsetManager
+05-08 18:59:10.526 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+05-08 18:59:10.526 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+05-08 18:59:10.527 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+05-08 18:59:10.528 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+05-08 18:59:10.528 27076 27121 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+05-08 18:59:10.529 27076 27121 E AVManager: Cannot install JSI bindings for AV module because JS context is not available
+05-08 18:59:10.529 27076 27121 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+05-08 18:59:10.530 27076 27121 I ExpoModulesCore: ✅ JSI interop was installed
+05-08 18:59:10.532 27076 27121 I ExpoModulesCore: ✅ Constants were exported
+05-08 18:59:10.539 27076 27121 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libworklets.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.545 27076 27121 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libreanimated.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.563 27076 27121 V AsyncStorageExpoMigration: No scoped database found
+05-08 18:59:10.569 27076 27121 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4736)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5461)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5428)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5402)] [com.reactnativecommunity.netinfo.NetworkCallbackConnectivityReceiver.register(NetworkCallbackConnectivityReceiver.java:62)] [com.reactnativecommunity.netinfo.NetInfoModule.initialize(NetInfoModule.java:40)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getOrCreateModule(TurboModuleManager.kt:259)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getModule(TurboModuleManager.kt:201)] [com.facebook.react.internal.turbomodule.core.TurboModuleManager.getLegacyCxxModule(TurboModuleManager.kt:127)] [com.facebook.jni.NativeRunnable.run(Native Method)]
+05-08 18:59:10.574 27076 27121 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/librnscreens.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes5.dex): ok
+05-08 18:59:10.581 27076 27121 W ReactNativeJS: [expo-av]: Expo AV has been deprecated and will be removed in SDK 54. Use the `expo-audio` and `expo-video` packages to replace the required functionality.
+05-08 18:59:10.617 27076 27121 W ReactNativeJS: This method is deprecated (as well as all React Native Firebase namespaced API) and will be removed in the next major release as part of move to match Firebase Web modular SDK API. Please see migration guide for more details: https://rnfirebase.io/migrating-to-v22 Please use `getApp()` instead.
+05-08 18:59:10.617 27076 27121 W ReactNativeJS: This method is deprecated (as well as all React Native Firebase namespaced API) and will be removed in the next major release as part of move to match Firebase Web modular SDK API. Please see migration guide for more details: https://rnfirebase.io/migrating-to-v22 Please use `getApp()` instead.
+05-08 18:59:10.617 27076 27122 D RNFBAppCheck: configureProvider - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-08 18:59:10.617 27076 27122 D RNFBAppCheck: ProviderFactory::configure - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-08 18:59:10.617 27076 27122 D RNFBAppCheck: Provider::configure with appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+05-08 18:59:10.617 27076 27121 I ReactNativeJS: Running "main"
+05-08 18:59:10.618 27076 27122 D RNFBAppCheck: ProviderFactory::create - fetching provider for app [DEFAULT]
+05-08 18:59:10.627 27076 27121 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libgesturehandler.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Entering merged library JNI_OnLoad.
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x73a62e0edc
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x73a63b1f40
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x73a63c49f8
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x73a63e9e30
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x73a647c5b0
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x73a6496b24
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x73a649d458
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x73a64b9070
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x73a65511a4
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x73a65587e0
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x73a655fda4
+05-08 18:59:10.627 27076 27121 D jni_lib_merge: About to register 11 actual methods.
+05-08 18:59:10.632 27076 27076 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{8ef1541 V.E...... ......ID 0,0-1080,2340 #1}
+05-08 18:59:10.632 27076 27076 D VRI[MainActivity]@3ae448b: Setup new sync=wmsSync-VRI[MainActivity]@3ae448b#0
+05-08 18:59:10.632 27076 27076 I VRI[MainActivity]@3ae448b: Creating new active sync group VRI[MainActivity]@3ae448b#1
+05-08 18:59:10.633 27076 27076 D VRI[MainActivity]@3ae448b: Draw frame after cancel
+05-08 18:59:10.633 27076 27076 D VRI[MainActivity]@3ae448b: registerCallbacksForSync syncBuffer=false
+05-08 18:59:10.633 27076 27125 D VRI[MainActivity]@3ae448b: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-08 18:59:10.633 27076 27125 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636b36390 mBlastBufferQueue=0xb4000075c6b162e0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+05-08 18:59:10.633 27076 27125 I VRI[MainActivity]@3ae448b: Setting up sync and frameCommitCallback
+05-08 18:59:10.633 27076 27115 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+05-08 18:59:10.650 27076 27115 I BLASTBufferQueue: [VRI[MainActivity]@3ae448b#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-08 18:59:10.650 27076 27115 I SurfaceComposerClient: apply transaction with the first frame. layerId: 4440, bufferData(ID: 116290534506499, frameNumber: 1)
+05-08 18:59:10.650 27076 27115 I VRI[MainActivity]@3ae448b: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-08 18:59:10.651 27076 27115 D HWUI    : CFMS:: SetUp Pid : 27076    Tid : 27115
+05-08 18:59:10.651 27076 27076 D VRI[MainActivity]@3ae448b: reportDrawFinished seqId=0
+05-08 18:59:10.661 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 18:59:10.661 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 18:59:10.665 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 18:59:10.665 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 18:59:10.665 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 18:59:10.665 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 18:59:10.665 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 18:59:10.665 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 18:59:10.671 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 18:59:10.671 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 18:59:10.671 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 18:59:10.725 27076 27124 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636b49250 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 18:59:10.738 27076 27076 D VRI[MainActivity]@3ae448b: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000075f6b02280}
+05-08 18:59:10.738 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 18:59:10.738 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 18:59:10.741 27076 27076 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-08 18:59:10.741 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 18:59:10.741 27076 27076 I ImeTracker: com.amovi.app:8eaa336b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-08 18:59:10.743 27076 27086 D InputTransport: Input channel constructed: 'ClientS', fd=162
+05-08 18:59:13.200 27076 27076 D ScrollView: initGoToTop
+05-08 18:59:13.201 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 18:59:13.201 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 18:59:13.201 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 18:59:13.201 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 18:59:13.201 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 18:59:13.201 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 18:59:13.202 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 18:59:15.909 27076 27195 D ProfileInstaller: Installing profile for com.amovi.app
+05-08 18:59:21.052 27076 27082 W com.amovi.app: Cleared Reference was only reachable from finalizer (only reported once)
+05-08 18:59:59.165 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 0
+05-08 18:59:59.168 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@3ae448b
+05-08 18:59:59.168 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 1
+05-08 18:59:59.187 27076 27121 D CompatChangeReporter: Compat change id reported: 303326708; UID 10376; state: ENABLED
+05-08 18:59:59.197 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 18:59:59.202 27076 27076 D ScrollView: initGoToTop
+05-08 18:59:59.202 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 18:59:59.202 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 18:59:59.202 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 18:59:59.202 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 18:59:59.202 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 18:59:59.202 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 18:59:59.211 27076 27076 I InputMethodManager_LC: showSoftInput(View,I)
+05-08 18:59:59.212 27076 27076 I ImeTracker: com.amovi.app:d65c7e6e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+05-08 18:59:59.212 27076 27076 I InputMethodManager_LC: ssi(): flags=0 view=com.amovi.app reason=SHOW_SOFT_INPUT
+05-08 18:59:59.213 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 18:59:59.213 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 18:59:59.213 27076 27076 D InsetsController: show(ime(), fromIme=false)
+05-08 18:59:59.213 27076 27076 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+05-08 18:59:59.214 27076 27132 D InputTransport: Input channel constructed: 'ClientS', fd=169
+05-08 18:59:59.214 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.show:1422 android.view.inputmethod.InputMethodManager.showSoftInput:2659 android.view.inputmethod.InputMethodManager.showSoftInput:2571 android.view.inputmethod.InputMethodManager.showSoftInput:2563 android.view.inputmethod.InputMethodManager.showSoftInput:2491 com.facebook.react.views.textinput.ReactEditText.showSoftKeyboard:828 com.facebook.react.views.textinput.ReactEditText.requestFocusProgrammatically:391 
+05-08 18:59:59.221 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 18:59:59.293 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 18:59:59.305 27076 27076 I AssistStructure: Flattened final assist data: 2520 bytes, containing 1 windows, 17 views
+05-08 18:59:59.381 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 18:59:59.381 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 18:59:59.390 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 18:59:59.391 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 18:59:59.391 27076 27308 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.amovi.app
+05-08 18:59:59.397 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 18:59:59.397 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 18:59:59.398 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 18:59:59.399 27076 27124 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636b0c550 mBlastBufferQueue=0xb4000075c6b162e0 fn= 337 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 18:59:59.747 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 18:59:59.747 27076 27076 I ImeTracker: com.amovi.app:d65c7e6e: onShown
+05-08 19:00:02.170 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@3ae448b
+05-08 19:00:13.115 27076 27076 I VRI[MainActivity]@3ae448b: setInTouchMode(false), android.view.ViewRootImpl.checkForLeavingTouchModeAndConsume:10972 android.view.ViewRootImpl.-$$Nest$mcheckForLeavingTouchModeAndConsume:0 android.view.ViewRootImpl$EarlyPostImeInputStage.processKeyEvent:9438 android.view.ViewRootImpl$EarlyPostImeInputStage.onProcess:9422 android.view.ViewRootImpl$InputStage.deliver:8901 android.view.ViewRootImpl$InputStage.onDeliverToNext:8958 android.view.ViewRootImpl$InputStage.forward:8924 android.view.ViewRootImpl$AsyncInputStage.forward:9157 android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent:9407 android.view.inputmethod.InputMethodManager$PendingEvent.run:5545 
+05-08 19:00:13.116 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.126 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.139 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.140 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.157 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.162 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.163 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.177 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.198 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.199 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.208 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.209 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.210 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.223 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.224 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.225 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.240 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.241 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.244 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.256 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.257 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.260 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.274 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.275 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.279 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.280 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.291 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:00:13.294 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:00:13.312 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:13.322 27076 27076 W unknown:ReactNative: Unsupported type for radius property: Null
+05-08 19:00:29.210 27076 27076 I VRI[MainActivity]@3ae448b: The input has been finished in ImeInputStage.
+05-08 19:00:29.211 27076 27076 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-08 19:00:29.211 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:00:29.211 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:00:29.212 27076 27076 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+05-08 19:00:29.212 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.hide:1540 android.view.inputmethod.InputMethodManager$H.handleMessage:1569 android.os.Handler.dispatchMessage:110 android.os.Looper.loopOnce:273 android.os.Looper.loop:363 android.app.ActivityThread.main:10060 java.lang.reflect.Method.invoke:-2 
+05-08 19:00:29.212 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 19:00:29.212 27076 27076 I VRI[MainActivity]@3ae448b: The input has been finished in ImeInputStage.
+05-08 19:00:29.212 27076 27076 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-08 19:00:29.212 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:00:29.212 27076 27076 I ImeTracker: com.samsung.android.honeyboard:b0f3a986: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-08 19:00:29.215 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:00:29.215 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 19:00:29.215 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 19:00:29.216 27076 27125 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636b862d0 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2284 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 19:00:29.516 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 19:00:29.524 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:00:29.524 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:00:29.557 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:00:29.557 27076 27076 I ImeTracker: system_server:59a77b7b: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+05-08 19:00:29.915 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:00:29.915 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:00:45.453 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 0
+05-08 19:00:45.455 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@3ae448b
+05-08 19:00:45.456 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 1
+05-08 19:00:45.460 27076 27121 W ReactNativeJS: This method is deprecated (as well as all React Native Firebase namespaced API) and will be removed in the next major release as part of move to match Firebase Web modular SDK API. Please see migration guide for more details: https://rnfirebase.io/migrating-to-v22 Please use `getApp()` instead.
+05-08 19:00:45.461 27076 27121 D Auth    : instance-initialized
+05-08 19:00:45.464 27076 27122 D Auth    : addAuthStateListener
+05-08 19:00:45.464 27076 27122 D Auth    : addIdTokenListener
+05-08 19:00:45.464 27076 27076 D Auth    : addAuthStateListener:eventBody {"appName":"[DEFAULT]"}
+05-08 19:00:45.464 27076 27122 D Auth    : configureAuthDomain
+05-08 19:00:45.464 27076 27122 D Auth    : configureAuthDomain - app [DEFAULT] domain? null
+05-08 19:00:45.464 27076 27122 D Auth    : signInWithPhoneNumber
+05-08 19:00:45.465 27076 27122 I zzb     : ForceRecaptchaV2Flow from phoneAuthOptions = false, ForceRecaptchav2Flow from firebaseSettings = false
+05-08 19:00:45.465 27076 27474 W System  : Ignoring header X-Firebase-Locale because its value was null.
+05-08 19:00:45.466 27076 27475 D RNFBAppCheck: Provider::getToken - delegating to native provider
+05-08 19:00:45.469 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:45.752 27076 27474 W LocalRequestInterceptor: Error getting App Check token; using placeholder token instead. Error: com.google.firebase.FirebaseException: Error returned from API. code: 403 body: Firebase App Check API has not been used in project 46815642181 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firebaseappcheck.googleapis.com/overview?project=46815642181 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+05-08 19:00:45.969 27076 27076 I RecaptchaHandler: Successfully obtained site key for tenant *
+05-08 19:00:45.977 27076 27149 D CompatChangeReporter: Compat change id reported: 270674727; UID 10376; state: ENABLED
+05-08 19:00:46.279 27076 27076 I WebViewFactory: Loading com.google.android.webview version 147.0.7727.137 (code 772713703)
+05-08 19:00:46.279 27076 27076 W ResourcesManager: Found a null ResourcesImpl, skipped.
+05-08 19:00:46.279 27076 27492 I PlayCore: UID: [10376]  PID: [27076] StandardIntegrity : warmUpIntegrityToken(145656491484)
+05-08 19:00:46.280 27076 27500 I PlayCore: UID: [10376]  PID: [27076] StandardIntegrity : Initiate binding to the service.
+05-08 19:00:46.280 27076 27076 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=d55b7afd mResDir=null mSplitDirs=[] mOverlayDirs=[] mLibDirs=[/data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk,/system/framework/android.test.base.jar,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v36 mCompatInfo={450dpi always-compat} mLoaders=[]}
+05-08 19:00:46.283 27076 27076 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-08 19:00:46.283 27076 27076 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+05-08 19:00:46.285 27076 27076 D nativeloader: Configuring clns-11 for other apk /data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/lib/arm64:/data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+05-08 19:00:46.292 27076 27076 I cr_WVCFactoryProvider: version=147.0.7727.137 (772713703) minSdkVersion=29 multiprocess=true packageId=2 splits=<none>
+05-08 19:00:46.294 27076 27076 D nativeloader: Load /data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk!/lib/arm64-v8a/libwebviewchromium.so using class loader ns clns-11 (caller=/data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk): ok
+05-08 19:00:46.294 27076 27076 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using class loader ns clns-11 (caller=/data/app/~~6tuOr4rA-ZGcri_2ckbpOg==/com.google.android.webview-54oU9yg4T3jJXBYDSaYfbg==/base.apk): ok
+05-08 19:00:46.295 27076 27505 I chromium: [0508/190046.295093:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+05-08 19:00:46.295 27076 27505 I chromium: [0508/190046.295166:INFO:android_webview/browser/variations/variations_seed_loader.cc:67] Failed to open file for reading.: No such file or directory (2)
+05-08 19:00:46.297 27076 27076 I cr_LibraryLoader: Successfully loaded native library
+05-08 19:00:46.298 27076 27076 I cr_CachingUmaRecorder: Flushed 22 samples from 21 histograms, 0 samples were dropped.
+05-08 19:00:46.299 27076 27076 I cr_ChildProcLH: ScopedServiceBindingBatch.tryActivate: false
+05-08 19:00:46.299 27076 27076 I cr_CombinedPProvider: #registerProvider() provider:WV.yk@aa4329 isPolicyCacheEnabled:false policyProvidersSize:0
+05-08 19:00:46.299 27076 27076 I cr_PolicyProvider: #setManagerAndSource() 0
+05-08 19:00:46.300 27076 27076 I cr_DisplayManager: Is Display Topology available: false
+05-08 19:00:46.305 27076 27076 I cr_CombinedPProvider: #linkNativeInternal() 1
+05-08 19:00:46.305 27076 27076 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+05-08 19:00:46.305 27076 27076 I cr_PolicyProvider: #notifySettingsAvailable() 0
+05-08 19:00:46.305 27076 27076 I cr_CombinedPProvider: #onSettingsAvailable() 0
+05-08 19:00:46.305 27076 27076 I cr_CombinedPProvider: #flushPolicies()
+05-08 19:00:46.319 27076 27076 W chromium: [WARNING:android_webview/browser/network_service/net_helpers.cc:137] HTTP Cache size is: 335544320
+05-08 19:00:46.327 27076 27076 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4736)] [android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid(ConnectivityManager.java:5461)] [android.net.ConnectivityManager.registerDefaultNetworkCallback(ConnectivityManager.java:5428)] [WV.po1.e(chromium-SystemWebViewGoogle6432.aab-stable-772713703:37)] [WV.po1.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:1)] [org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(chromium-SystemWebViewGoogle6432.aab-stable-772713703:19)] [J.N.JJ(Native Method)] [org.chromium.android_webview.AwContents.<init>(chromium-SystemWebViewGoogle6432.aab-stable-772713703:658)] [com.android.webview.chromium.r.run(chromium-SystemWebViewGoogle6432.aab-stable-772713703:230)] [WV.v43.run(chromium-SystemWebViewGoogle6432.aab-stable-772713703:13)] [org.chromium.base.task.PostTask.e(chromium-SystemWebViewGoogle6432.aab-stable-772713703:18)] [WV.w43.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:18)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:3)] [com.android.webview.chromium.WebViewChromium.init(chromium-SystemWebViewGoogle6432.aab-stable-772713703:280)] [android.webkit.WebView.<init>(WebView.java:447)] [android.webkit.WebView.<init>(WebView.java:367)] [android.webkit.WebView.<init>(WebView.java:349)] [android.webkit.WebView.<init>(WebView.java:336)] [android.webkit.WebView.<init>(WebView.java:326)] [com.google.android.recaptcha.internal.zzjc.invokeSuspend(com.google.android.recaptcha:recaptcha@@18.6.1:2)] [com.google.android.recaptcha.internal.zzjc.invoke(com.google.android.recaptcha:recaptcha@@18.6.1:1)] [kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)] [kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)] [kotlinx.coroutines.BuildersKt.withContext(Unknown Source:1)] [com.google.android.recaptcha.internal.zzja.zzw(com.google.android.recaptcha:recaptcha@@18.6.1:3)] [com.google.android.recaptcha.internal.zzil.invokeSuspend(com.google.android.recaptcha:recaptcha@@18.6.1:2)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)]
+05-08 19:00:46.327 27076 27076 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4736)] [android.net.ConnectivityManager.sendRequestForNetwork(ConnectivityManager.java:4904)] [android.net.ConnectivityManager.registerNetworkCallback(ConnectivityManager.java:5321)] [WV.po1.e(chromium-SystemWebViewGoogle6432.aab-stable-772713703:86)] [WV.po1.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:1)] [org.chromium.android_webview.AwContentsLifecycleNotifier.onFirstWebViewCreated(chromium-SystemWebViewGoogle6432.aab-stable-772713703:19)] [J.N.JJ(Native Method)] [org.chromium.android_webview.AwContents.<init>(chromium-SystemWebViewGoogle6432.aab-stable-772713703:658)] [com.android.webview.chromium.r.run(chromium-SystemWebViewGoogle6432.aab-stable-772713703:230)] [WV.v43.run(chromium-SystemWebViewGoogle6432.aab-stable-772713703:13)] [org.chromium.base.task.PostTask.e(chromium-SystemWebViewGoogle6432.aab-stable-772713703:18)] [WV.w43.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:18)] [com.android.webview.chromium.WebViewChromiumFactoryProvider.a(chromium-SystemWebViewGoogle6432.aab-stable-772713703:3)] [com.android.webview.chromium.WebViewChromium.init(chromium-SystemWebViewGoogle6432.aab-stable-772713703:280)] [android.webkit.WebView.<init>(WebView.java:447)] [android.webkit.WebView.<init>(WebView.java:367)] [android.webkit.WebView.<init>(WebView.java:349)] [android.webkit.WebView.<init>(WebView.java:336)] [android.webkit.WebView.<init>(WebView.java:326)] [com.google.android.recaptcha.internal.zzjc.invokeSuspend(com.google.android.recaptcha:recaptcha@@18.6.1:2)] [com.google.android.recaptcha.internal.zzjc.invoke(com.google.android.recaptcha:recaptcha@@18.6.1:1)] [kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:42)] [kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:164)] [kotlinx.coroutines.BuildersKt.withContext(Unknown Source:1)] [com.google.android.recaptcha.internal.zzja.zzw(com.google.android.recaptcha:recaptcha@@18.6.1:3)] [com.google.android.recaptcha.internal.zzil.invokeSuspend(com.google.android.recaptcha:recaptcha@@18.6.1:2)] [kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)] [kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:101)]
+05-08 19:00:46.332 27076 27540 I CameraManagerGlobal: Connecting to camera service
+05-08 19:00:46.333 27076 27076 I PlayCore: UID: [10376]  PID: [27076] StandardIntegrity : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.expressintegrityservice.ExpressIntegrityService})
+05-08 19:00:46.333 27076 27500 I PlayCore: UID: [10376]  PID: [27076] StandardIntegrity : linkToDeath
+05-08 19:00:46.333 27076 27540 D VendorTagDescriptor: addVendorDescriptor: vendor tag id 15622750491770684145 added
+05-08 19:00:46.334 27076 27540 D VendorTagDescriptor: addVendorDescriptor: vendor tag id 8932615658386372252 added
+05-08 19:00:46.336 27076 27087 I CameraManagerGlobal: Camera 0 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.336 27076 27091 I CameraManagerGlobal: Camera 1 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.336 27076 27091 I CameraManagerGlobal: Camera 2 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 20 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 21 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 23 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 24 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 3 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 4 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 52 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27087 I CameraManagerGlobal: Camera 54 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27087 I CameraManagerGlobal: Camera 56 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27540 I CameraManager: registerAvailabilityCallback: Is device callback = false
+05-08 19:00:46.337 27076 27091 I CameraManagerGlobal: Camera 58 facing CAMERA_FACING_BACK state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.337 27076 27540 I CameraManagerGlobal: postSingleUpdate device: camera id 0 status STATUS_PRESENT
+05-08 19:00:46.337 27076 27540 I CameraManagerGlobal: postSingleUpdate device: camera id 1 status STATUS_PRESENT
+05-08 19:00:46.337 27076 27540 I CameraManagerGlobal: postSingleUpdate device: camera id 2 status STATUS_PRESENT
+05-08 19:00:46.337 27076 27540 I CameraManagerGlobal: postSingleUpdate device: camera id 3 status STATUS_PRESENT
+05-08 19:00:46.337 27076 27132 I CameraManagerGlobal: Camera 90 facing CAMERA_FACING_FRONT state now CAMERA_STATE_CLOSED for client android.system API Level 2 User Id 0Device Id 0
+05-08 19:00:46.632 27076 27500 I PlayCore: UID: [10376]  PID: [27076] StandardIntegrity : Unbind from service.
+05-08 19:00:46.632 27076 27132 I PlayCore: UID: [10376]  PID: [27076] OnWarmUpIntegrityTokenCallback : onWarmUpExpressIntegrityToken
+05-08 19:00:46.674 27076 27522 W cr_media: BLUETOOTH_CONNECT permission is missing.
+05-08 19:00:46.674 27076 27522 W cr_media: getBluetoothAdapter() requires BLUETOOTH permission
+05-08 19:00:46.674 27076 27522 W cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+05-08 19:00:46.675 27076 27522 D AudioSystem: onNewService: media.audio_policy service obtained 0xb400007696cdf540
+05-08 19:00:46.675 27076 27522 D AudioSystem: getService: checking for service media.audio_policy: 0xb400007696cdf540
+05-08 19:00:46.715 27076 27579 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:00:46.717 27076 27579 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Build Date              : 07/21/25
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Local Branch            : 
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Remote Branch           : NONE
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Driver Version          : 0800.40.1
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: PFP                     : 0x01500077
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: ME                      : 0x01500014
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Application Name    : 
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Application Version : 0x00000001
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Engine Name         : 
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Engine Version      : 0x00000001
+05-08 19:00:46.719 27076 27579 I AdrenoVK-0: Api Version         : 0x00403000
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: QUALCOMM build                   : e4a2ccdb56, Icac6f3510c
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Build Date                       : 07/21/25
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: E031.47.18.36
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Local Branch                     : 
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Remote Branch                    : NONE
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Build Config                     : S P 18.0.0 AArch64
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Driver Version                   : 0800.40.1
+05-08 19:00:46.722 27076 27579 I AdrenoGLES-0: Process Name                     : com.amovi.app
+05-08 19:00:46.723 27076 27083 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+05-08 19:00:46.725 27076 27579 I AdrenoGLES-0: PFP: 0x01500077, ME: 0x01500014
+05-08 19:00:46.725 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=169
+05-08 19:00:46.728 27076 27084 W System  : A resource failed to call AbstractCursor.close. 
+05-08 19:00:46.728 27076 27084 W System  : A resource failed to call CursorWrapperInner.close. 
+05-08 19:00:46.729 27076 27579 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+05-08 19:00:46.736 27076 27579 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:00:46.737 27076 27579 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Build Date              : 07/21/25
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Local Branch            : 
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Remote Branch           : NONE
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Driver Version          : 0800.40.1
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: PFP                     : 0x01500077
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: ME                      : 0x01500014
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Application Name    : Chromium
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Application Version : 0x00000000
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Engine Name         : (null)
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Engine Version      : 0x00000000
+05-08 19:00:46.738 27076 27579 I AdrenoVK-0: Api Version         : 0x00401000
+05-08 19:00:46.741 27076 27529 W AudioCapabilities: Unsupported mediaType audio/x-ape
+05-08 19:00:46.741 27076 27529 W AudioCapabilities: Unsupported mediaType audio/evrc
+05-08 19:00:46.741 27076 27529 W AudioCapabilities: Unsupported mediaType audio/evrc
+05-08 19:00:46.741 27076 27529 W AudioCapabilities: Unsupported mediaType audio/x-ima
+05-08 19:00:46.742 27076 27529 W AudioCapabilities: Unsupported mediaType audio/mpeg-L1
+05-08 19:00:46.742 27076 27529 W AudioCapabilities: Unsupported mediaType audio/mpeg-L2
+05-08 19:00:46.742 27076 27529 W AudioCapabilities: Unsupported mediaType audio/qcelp
+05-08 19:00:46.742 27076 27529 W AudioCapabilities: Unsupported mediaType audio/qcelp
+05-08 19:00:46.742 27076 27529 W VideoCapabilities: Unsupported mime video/wvc1
+05-08 19:00:46.742 27076 27529 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+05-08 19:00:46.749 27076 27529 W VideoCapabilities: Unsupported mime video/x-mvhevc
+05-08 19:00:46.749 27076 27529 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+05-08 19:00:46.750 27076 27529 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/x-ape
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/evrc
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/evrc
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/x-ima
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/mpeg-L1
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/mpeg-L2
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/qcelp
+05-08 19:00:46.753 27076 27529 W AudioCapabilities: Unsupported mime audio/qcelp
+05-08 19:00:46.753 27076 27529 W VideoCapabilities: Unsupported mime video/wvc1
+05-08 19:00:46.753 27076 27529 W VideoCapabilities: Unsupported mime video/wvc1
+05-08 19:00:46.753 27076 27529 W VideoCapabilities: Unsupported mime video/x-ms-wmv
+05-08 19:00:46.755 27076 27529 W VideoCapabilities: Unsupported mime video/x-mvhevc
+05-08 19:00:46.755 27076 27529 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+05-08 19:00:46.755 27076 27529 W VideoCapabilities: Unsupported mime image/vnd.android.heic
+05-08 19:00:46.755 27076 27529 W VideoCapabilities: Unrecognized profile/level 32768/256 for video/mp4v-es
+05-08 19:00:46.826 27076 27084 W System  : A resource failed to call AbstractCursor.close. 
+05-08 19:00:46.827 27076 27084 W System  : A resource failed to call CursorWrapperInner.close. 
+05-08 19:00:46.958 27076 27076 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-08 19:00:46.958 27076 27076 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-08 19:00:46.960 27076 27474 W System  : Ignoring header X-Firebase-Locale because its value was null.
+05-08 19:00:46.963 27076 27602 D RNFBAppCheck: Provider::getToken - delegating to native provider
+05-08 19:00:46.964 27076 27474 W LocalRequestInterceptor: Error getting App Check token; using placeholder token instead. Error: com.google.firebase.FirebaseException: Too many attempts.
+05-08 19:00:47.236 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:47.239 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:00:47.239 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:00:47.239 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:00:47.239 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:00:47.239 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:00:47.239 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:00:47.242 27076 27076 W unknown:ReactNative: Unsupported type for radius property: Null
+05-08 19:00:47.249 27076 27076 I InputMethodManager_LC: showSoftInput(View,I)
+05-08 19:00:47.249 27076 27076 I ImeTracker: com.amovi.app:b60cb0f7: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+05-08 19:00:47.249 27076 27076 I InputMethodManager_LC: ssi(): flags=0 view=com.amovi.app reason=SHOW_SOFT_INPUT
+05-08 19:00:47.249 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:00:47.249 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:00:47.250 27076 27076 D InsetsController: show(ime(), fromIme=false)
+05-08 19:00:47.250 27076 27076 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+05-08 19:00:47.250 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.show:1422 android.view.inputmethod.InputMethodManager.showSoftInput:2659 android.view.inputmethod.InputMethodManager.showSoftInput:2571 android.view.inputmethod.InputMethodManager.showSoftInput:2563 android.view.inputmethod.InputMethodManager.showSoftInput:2491 com.facebook.react.views.textinput.ReactEditText.showSoftKeyboard:828 com.facebook.react.views.textinput.ReactEditText.requestFocusProgrammatically:391 
+05-08 19:00:47.253 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=202
+05-08 19:00:47.259 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:47.338 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:00:47.390 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:00:47.390 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:00:47.390 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:00:47.390 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 19:00:47.397 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:00:47.397 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 19:00:47.397 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 19:00:47.398 27076 27124 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636bb9250 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2429 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 19:00:47.747 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 19:00:47.747 27076 27076 I ImeTracker: com.amovi.app:b60cb0f7: onShown
+05-08 19:00:48.255 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:48.456 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@3ae448b
+05-08 19:00:49.288 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:50.317 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:51.334 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:52.265 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:52.367 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:53.396 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:54.414 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:55.442 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:56.458 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:57.474 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:58.490 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:00:59.522 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:00.554 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:01.586 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:02.617 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.453 27076 27076 I VRI[MainActivity]@3ae448b: setInTouchMode(false), android.view.ViewRootImpl.checkForLeavingTouchModeAndConsume:10972 android.view.ViewRootImpl.-$$Nest$mcheckForLeavingTouchModeAndConsume:0 android.view.ViewRootImpl$EarlyPostImeInputStage.processKeyEvent:9438 android.view.ViewRootImpl$EarlyPostImeInputStage.onProcess:9422 android.view.ViewRootImpl$InputStage.deliver:8901 android.view.ViewRootImpl$InputStage.onDeliverToNext:8958 android.view.ViewRootImpl$InputStage.forward:8924 android.view.ViewRootImpl$AsyncInputStage.forward:9157 android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent:9407 android.view.inputmethod.InputMethodManager$PendingEvent.run:5545 
+05-08 19:01:03.454 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.478 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.480 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.481 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.484 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:03.484 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:03.485 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.485 27076 27076 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+05-08 19:01:03.485 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=266
+05-08 19:01:03.485 27076 27076 W RemoteInputConnectionImpl: getSelectedText on inactive InputConnection
+05-08 19:01:03.486 27076 27076 W RemoteInputConnectionImpl: getSelectedText on inactive InputConnection
+05-08 19:01:03.486 27076 27076 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+05-08 19:01:03.486 27076 27076 W RemoteInputConnectionImpl: getTextAfterCursor on inactive InputConnection
+05-08 19:01:03.487 27076 27076 W RemoteInputConnectionImpl: getCursorCapsMode on inactive InputConnection
+05-08 19:01:03.488 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.488 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.489 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.500 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:03.500 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:03.504 27076 27086 D InputTransport: Input channel constructed: 'ClientS', fd=248
+05-08 19:01:03.507 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.507 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:03.507 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.514 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.514 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.518 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.519 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.520 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.521 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.533 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.533 27076 27076 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+05-08 19:01:03.534 27076 27076 W RemoteInputConnectionImpl: getSelectedText on inactive InputConnection
+05-08 19:01:03.534 27076 27076 W RemoteInputConnectionImpl: getSelectedText on inactive InputConnection
+05-08 19:01:03.534 27076 27076 W RemoteInputConnectionImpl: getTextBeforeCursor on inactive InputConnection
+05-08 19:01:03.534 27076 27076 W RemoteInputConnectionImpl: getTextAfterCursor on inactive InputConnection
+05-08 19:01:03.535 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.535 27076 27076 W RemoteInputConnectionImpl: getCursorCapsMode on inactive InputConnection
+05-08 19:01:03.537 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.539 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.541 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:03.542 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:03.552 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.552 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:03.552 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:03.552 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:03.553 27076 27086 D InputTransport: Input channel constructed: 'ClientS', fd=209
+05-08 19:01:03.557 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.557 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.567 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:03.567 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:03.569 27076 27086 D InputTransport: Input channel constructed: 'ClientS', fd=267
+05-08 19:01:03.574 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:03.580 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.585 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.585 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.587 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.593 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.593 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.594 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:03.594 27076 27076 W RemoteInputConnectionImpl: getExtractedText on inactive InputConnection
+05-08 19:01:03.599 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.603 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.604 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:03.618 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:03.627 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:04.372 27076 27813 E FilePhenotypeFlags: Config package com.google.android.gms.clearcut_client#com.amovi.app cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+05-08 19:01:04.381 27076 27813 E FilePhenotypeFlags: Config package com.google.android.gms.clearcut_client#com.amovi.app cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+05-08 19:01:04.381 27076 27813 E FilePhenotypeFlags: Config package com.google.android.gms.clearcut_client#com.amovi.app cannot use FILE backing without declarative registration. See go/phenotype-android-integration#phenotype for more information. This will lead to stale flags.
+05-08 19:01:04.649 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:05.679 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:06.696 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:07.726 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:08.742 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:09.758 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:10.771 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:11.777 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:12.803 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:13.818 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:14.847 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:15.880 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:16.897 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:17.915 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:26.561 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.562 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:26.634 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.634 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:26.722 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.723 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:26.794 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.794 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:26.869 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.869 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:26.947 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:26.948 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.054 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.080 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.081 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.081 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.082 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.082 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.082 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.083 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.083 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:28.083 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.084 27076 27076 I ImeTracker: com.amovi.app:86b1fa04: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+05-08 19:01:28.084 27076 27076 I InputMethodManager_LC: hsifw() - flag : 0
+05-08 19:01:28.084 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:28.084 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:28.085 27076 27076 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+05-08 19:01:28.085 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:01:28.085 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:28.085 27076 27076 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+05-08 19:01:28.085 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.hide:1540 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2889 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2812 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2773 com.facebook.react.views.textinput.ReactEditText.hideSoftKeyboard:831 com.facebook.react.views.textinput.ReactEditText.clearFocusAndMaybeRefocus$ReactAndroid_release:376 com.facebook.react.views.textinput.ReactEditText.clearFocusFromJS$ReactAndroid_release:380 
+05-08 19:01:28.085 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 19:01:28.086 27076 27086 D InputTransport: Input channel constructed: 'ClientS', fd=264
+05-08 19:01:28.088 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:01:28.088 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 19:01:28.088 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 19:01:28.089 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.089 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:01:28.089 27076 27125 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636ba7f90 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2582 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 19:01:28.107 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:01:28.124 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:01:28.312 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:01:28.419 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 19:01:28.424 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:01:28.424 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:01:28.427 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:01:28.435 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:01:28.435 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:01:28.436 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=261
+05-08 19:01:28.442 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:01:28.442 27076 27076 I ImeTracker: system_server:218aac58: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+05-08 19:01:28.808 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:01:28.808 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:01:46.960 27076 27484 W FirebaseAuth: [SmsRetrieverHelper] Timed out waiting for SMS.
+05-08 19:01:46.972 27076 27076 I PhoneAuthProvider: Sms auto retrieval timed-out.
+05-08 19:01:58.405 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 0
+05-08 19:01:58.406 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@3ae448b
+05-08 19:01:58.407 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme pointer 1
+05-08 19:01:58.407 27076 27076 I AutofillManager: showAutofillDialog() return false due to improve fill dialog
+05-08 19:01:58.407 27076 27076 I InputMethodManager_LC: showSoftInput(View,I)
+05-08 19:01:58.408 27076 27076 I ImeTracker: com.amovi.app:4667e5e5: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser true
+05-08 19:01:58.408 27076 27076 I InputMethodManager_LC: ssi(): flags=0 view=com.amovi.app reason=SHOW_SOFT_INPUT
+05-08 19:01:58.408 27076 27076 D InsetsController: show(ime(), fromIme=false)
+05-08 19:01:58.408 27076 27076 D InsetsController: Setting requestedVisibleTypes to -1 (was -9)
+05-08 19:01:58.410 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=true, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.show:1422 android.view.inputmethod.InputMethodManager.showSoftInput:2659 android.view.inputmethod.InputMethodManager.showSoftInput:2571 android.view.inputmethod.InputMethodManager.showSoftInput:2563 android.view.inputmethod.InputMethodManager.showSoftInput:2491 android.widget.TextView.onTouchEvent:14078 com.facebook.react.views.textinput.ReactEditText.onTouchEvent:316 
+05-08 19:01:58.413 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:01:58.437 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:01:58.437 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:01:58.464 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:01:58.465 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 19:01:58.472 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:01:58.472 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=0 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 19:01:58.480 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 19:01:58.481 27076 27124 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636be43d0 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2662 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 19:01:58.831 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=0, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 19:01:58.831 27076 27076 I ImeTracker: com.amovi.app:4667e5e5: onShown
+05-08 19:02:00.515 27076 27076 I VRI[MainActivity]@3ae448b: setInTouchMode(false), android.view.ViewRootImpl.checkForLeavingTouchModeAndConsume:10972 android.view.ViewRootImpl.-$$Nest$mcheckForLeavingTouchModeAndConsume:0 android.view.ViewRootImpl$EarlyPostImeInputStage.processKeyEvent:9438 android.view.ViewRootImpl$EarlyPostImeInputStage.onProcess:9422 android.view.ViewRootImpl$InputStage.deliver:8901 android.view.ViewRootImpl$InputStage.onDeliverToNext:8958 android.view.ViewRootImpl$InputStage.forward:8924 android.view.ViewRootImpl$AsyncInputStage.forward:9157 android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent:9407 android.view.inputmethod.InputMethodManager$PendingEvent.run:5545 
+05-08 19:02:00.516 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:00.524 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:00.527 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:00.529 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:00.529 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:00.531 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:00.531 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=263
+05-08 19:02:00.532 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:00.931 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:00.940 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:00.941 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:00.943 27076 27076 W Choreographer: Frame time is 0.319775 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+05-08 19:02:00.945 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:00.945 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:00.946 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=309
+05-08 19:02:00.947 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:00.948 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:01.355 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:01.365 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:01.367 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:01.370 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:01.370 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:01.371 27076 27548 D InputTransport: Input channel constructed: 'ClientS', fd=303
+05-08 19:02:01.372 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:01.372 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:01.411 27076 27076 I VRI[MainActivity]@3ae448b: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@3ae448b
+05-08 19:02:01.788 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:01.818 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:01.818 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:01.819 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:01.820 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:01.820 27076 27132 D InputTransport: Input channel constructed: 'ClientS', fd=262
+05-08 19:02:01.822 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:01.823 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:02.271 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:02.293 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:02.295 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:02.301 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:02.301 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:02.303 27076 27132 D InputTransport: Input channel constructed: 'ClientS', fd=93
+05-08 19:02:02.303 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:02.304 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:02.695 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:02.708 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:02.717 27076 27076 I ImeTracker: com.amovi.app:18552a7c: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+05-08 19:02:02.717 27076 27076 I InputMethodManager_LC: hsifw() - flag : 0
+05-08 19:02:02.717 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:02.717 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:02.718 27076 27076 I InputMethodManager_LC: hsifw() - mService.hideSoftInput
+05-08 19:02:02.718 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:02:02.718 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:02.718 27076 27076 D InsetsController: Setting requestedVisibleTypes to -9 (was -1)
+05-08 19:02:02.718 27076 27076 I InsetsController: setRequestedVisibleTypes: visible=false, mask=ime, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1604 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 android.view.InsetsController.hide:1540 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2889 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2812 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:2773 com.facebook.react.views.textinput.ReactEditText.hideSoftKeyboard:831 com.facebook.react.views.textinput.ReactEditText.clearFocusAndMaybeRefocus$ReactAndroid_release:376 com.facebook.react.views.textinput.ReactEditText.clearFocusFromJS$ReactAndroid_release:380 
+05-08 19:02:02.718 27076 27076 I InsetsController: controlAnimationUncheckedInner: Added types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.controlAnimationUnchecked:1608 android.view.InsetsController.applyAnimation:2416 android.view.InsetsController.applyAnimation:2343 
+05-08 19:02:02.719 27076 27132 D InputTransport: Input channel constructed: 'ClientS', fd=294
+05-08 19:02:02.719 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@3ae448b mNativeObject= 0xb4000075c6b162e0 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3574 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:02:02.719 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=true req=(1080,2340)0 dur=1 res=0x0 s={true 0xb4000075f6b02280} ch=false seqId=0
+05-08 19:02:02.719 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:02.719 27076 27076 I VRI[MainActivity]@3ae448b: registerCallbackForPendingTransactions
+05-08 19:02:02.719 27076 27125 I VRI[MainActivity]@3ae448b: mWNT: t=0xb400007636be8f10 mBlastBufferQueue=0xb4000075c6b162e0 fn= 2679 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$10.onFrameDraw:6536 android.view.ViewRootImpl$4.onFrameDraw:2489 android.view.ThreadedRenderer$1.onFrameDraw:718 
+05-08 19:02:02.720 27076 27076 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+05-08 19:02:03.033 27076 27076 I InsetsController: cancelAnimation: types=ime, animType=1, host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.InsetsController.notifyFinished:2006 android.view.InsetsAnimationThreadControlRunner$1.lambda$notifyFinished$0:82 android.view.InsetsAnimationThreadControlRunner$1.$r8$lambda$cDFF0h4Ncq-8EXdGszv69jrUu7c:0 
+05-08 19:02:03.036 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,1332][1080,2340] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:02:03.036 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:02:03.038 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@b7e7676
+05-08 19:02:03.058 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:02:03.058 27076 27076 I ImeTracker: system_server:3e7a04c8: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+05-08 19:02:03.409 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:02:03.410 27076 27076 I VRI[MainActivity]@3ae448b: handleResized, frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false dragResizingChanged=false
+05-08 19:02:03.420 27076 27121 W ReactNativeJS: '[2026-05-09T00:02:03.420Z]  @firebase/firestore:', 'Firestore (12.9.0): Error using user provided cache. Falling back to memory cache: FirebaseError: [code=unimplemented]: IndexedDB persistence is only available on platforms that support LocalStorage.'
+05-08 19:02:03.436 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onUserLeaveHint(activity)
+05-08 19:02:03.437 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+05-08 19:02:03.437 27076 27076 W unknown:BridgelessReact: ReactContext.onHostPause()
+05-08 19:02:03.466 27076 27076 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+05-08 19:02:03.466 27076 27076 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+05-08 19:02:03.545 27076 27076 D InputTransport: Input channel destroyed: 'ClientS', fd=162
+05-08 19:02:28.745 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+05-08 19:02:28.745 27076 27076 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-08 19:02:28.766 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:02:28.766 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:02:28.766 27076 27076 D VRI[MainActivity]@3ae448b: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000075f6b02280}
+05-08 19:02:28.767 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:02:28.767 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:02:28.767 27076 27076 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-08 19:02:28.767 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:02:28.767 27076 27076 I ImeTracker: com.amovi.app:7317da98: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-08 19:02:28.769 27076 27087 D InputTransport: Input channel constructed: 'ClientS', fd=270
+05-08 19:02:29.780 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:02:29.780 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:02:29.780 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:02:29.781 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:02:29.781 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:02:29.781 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:02:29.789 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:02:29.805 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:30.324 27076 27076 D ScrollView: initGoToTop
+05-08 19:02:30.331 27076 28470 D nativeloader: Load /data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!/lib/arm64-v8a/libimagepipeline.so using class loader ns clns-10 (caller=/data/app/~~_wqwAw-rKuqzZkxJHzVaOg==/com.amovi.app-s-rZeRyna9wVUlsxIGoCCg==/base.apk!classes3.dex): ok
+05-08 19:02:30.333 27076 28470 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:02:30.334 27076 28471 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:02:30.334 27076 28471 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:02:49.542 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=294
+05-08 19:02:49.543 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=93
+05-08 19:02:49.543 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=262
+05-08 19:02:49.543 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=303
+05-08 19:02:49.543 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=309
+05-08 19:02:49.544 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=263
+05-08 19:02:49.544 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=261
+05-08 19:02:49.545 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=264
+05-08 19:02:49.546 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=267
+05-08 19:02:49.546 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=209
+05-08 19:02:49.547 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=248
+05-08 19:02:49.547 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=266
+05-08 19:02:49.552 27076 27083 D InputTransport: Input channel destroyed: 'ClientS', fd=202
+05-08 19:02:49.558 27076 27084 W System  : A resource failed to call AbstractCursor.close. 
+05-08 19:02:49.558 27076 27084 W System  : A resource failed to call CursorWrapperInner.close. 
+05-08 19:02:54.974 27076 27076 D WindowOnBackDispatcher: onBackInvoked, callback=android.view.ViewRootImpl$$ExternalSyntheticLambda16@7a344ae
+05-08 19:02:54.974 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 0
+05-08 19:02:54.974 27076 27076 D Activity: onKeyDown(KEYCODE_BACK), activity=com.amovi.app.MainActivity@dfe72a7
+05-08 19:02:54.974 27076 27076 I VRI[MainActivity]@3ae448b: ViewPostIme key 1
+05-08 19:02:54.975 27076 27076 D Activity: onBackInvoked, activity=com.amovi.app.MainActivity@dfe72a7, caller=android.app.Activity.onBackPressed:4470 androidx.activity.ComponentActivity.access$onBackPressed$s1027565324:111 androidx.activity.ComponentActivity$onBackPressedDispatcher$2.invoke$lambda$0:603 
+05-08 19:02:54.979 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+05-08 19:02:54.979 27076 27076 W unknown:BridgelessReact: ReactContext.onHostPause()
+05-08 19:02:54.992 27076 27076 I ImeFocusController: onPreWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+05-08 19:02:54.993 27076 27076 I ImeFocusController: onPostWindowFocus: skipped hasWindowFocus=false mHasImeFocus=true
+05-08 19:02:55.029 27076 27076 D InputTransport: Input channel destroyed: 'ClientS', fd=270
+05-08 19:02:55.367 27076 27076 I VRI[MainActivity]@3ae448b: handleAppVisibility mAppVisible = true visible = false
+05-08 19:02:55.367 27076 27076 D VRI[MainActivity]@3ae448b: visibilityChanged oldVisibility=true newVisibility=false
+05-08 19:02:55.378 27076 27115 D HWUI    : CacheManager::trimMemory(20)
+05-08 19:02:55.383 27076 27076 I VRI[MainActivity]@3ae448b: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=1 res=0x2 s={false 0x0} ch=true seqId=0
+05-08 19:02:55.384 27076 27076 D VRI[MainActivity]@3ae448b: Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility
+05-08 19:02:55.384 27076 27115 D HWUI    : CacheManager::trimMemory(40)
+05-08 19:02:55.384 27076 27076 I VRI[MainActivity]@3ae448b: stopped(true) old = false
+05-08 19:02:55.384 27076 27076 D VRI[MainActivity]@3ae448b: WindowStopped on com.amovi.app/com.amovi.app.MainActivity set to true
+05-08 19:02:55.396 27076 27076 I AutofillManager: onInvisibleForAutofill(): expiringResponse
+05-08 19:02:55.400 27076 27076 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda16@7a344ae
+05-08 19:02:55.400 27076 27076 D ViewRootImpl: Skipping stats log for color mode
+05-08 19:02:55.400 27076 27076 I VRI[MainActivity]@3ae448b: dispatchDetachedFromWindow
+05-08 19:02:55.401 27076 27076 D InputTransport: Input channel destroyed: 'b325c03', fd=114
+05-08 19:02:55.403 27076 27076 D BBA2    : setIsFg isFg = false; delayValue 3999ms
+05-08 19:02:55.404 27076 27076 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Schedule
+05-08 19:02:55.404 27076 27076 W unknown:BridgelessReact: ReactHost{0}.detachSurface(surfaceId = 1)
+05-08 19:02:55.404 27076 27120 W unknown:BridgelessReact: ReactHost{0}.stopSurface(surfaceId = 1): Execute
+05-08 19:02:55.404 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostDestroy(activity)
+05-08 19:02:55.404 27076 27120 E unknown:SurfaceMountingManager: Stopping surface [1]
+05-08 19:02:55.404 27076 27076 W unknown:BridgelessReact: ReactContext.onHostDestroy()
+05-08 19:02:55.405 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:02:55.409 27076 27076 E unknown:ReactNative: Tried to remove non-existent frame callback
+05-08 19:02:55.409 27076 27076 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.runtime.ReactSurfaceView{8ef1541 V.E...... .......D 0,0-1080,2340 #1}
+05-08 19:02:55.409 27076 27076 E unknown:SurfaceMountingManager: Surface [1] was stopped on SurfaceMountingManager.
+05-08 19:03:17.624 27076 27076 D BBA2    : setIsFg isFg = true
+05-08 19:03:17.625 27076 27076 D ActivityThread: com.amovi.app will use render engine as VK
+05-08 19:03:17.625 27076 27115 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:03:17.630 27076 27115 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Build Date              : 07/21/25
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Local Branch            : 
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Remote Branch           : NONE
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Driver Version          : 0800.40.1
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: PFP                     : 0x01500077
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: ME                      : 0x01500014
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Application Name    : android framework
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Application Version : 0x00000000
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Engine Name         : android framework
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Engine Version      : 0x00000000
+05-08 19:03:17.634 27076 27115 I AdrenoVK-0: Api Version         : 0x00401000
+05-08 19:03:17.634 27076 27076 I DecorView: setWindowBackground: isPopOver=false color=ff303030 d=android.graphics.drawable.ColorDrawable@b9cf7bb
+05-08 19:03:17.635 27076 27076 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+05-08 19:03:17.635 27076 27076 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+05-08 19:03:17.635 27076 27120 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+05-08 19:03:17.635 27076 27120 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+05-08 19:03:17.635 27076 27121 I ReactNativeJS: Running "main"
+05-08 19:03:17.636 27076 27076 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+05-08 19:03:17.636 27076 27076 W unknown:BridgelessReact: ReactContext.onHostResume()
+05-08 19:03:17.636 27076 27076 D ViewRootImpl: desktopMode is false
+05-08 19:03:17.636 27076 27076 I ViewRootImpl: dVRR is disabled
+05-08 19:03:17.640 27076 27115 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+05-08 19:03:17.642 27076 27076 D InputTransport: Input channel constructed: '9f56049', fd=114
+05-08 19:03:17.642 27076 27076 I InsetsController: onStateChanged: host=com.amovi.app/com.amovi.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1080, 2340), mDisplayCutout=DisplayCutout{insets=Rect(0, 85 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(514, 0 - 566, 85), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={2.8125} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=42, center=Point(42, 42)}, RoundedCorner{position=TopRight, radius=42, center=Point(1038, 42)}, RoundedCorner{position=BottomRight, radius=42, center=Point(1038, 2298)}, RoundedCorner{position=BottomLeft, radius=42, center=Point(42, 2298)}]}  mRoundedCornerFrame=Rect(0, 0 - 1080, 2340), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(956, 0 - 1080, 85) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=0.75 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300000 mType=statusBars mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300005 mType=mandatorySystemGestures mFrame=[0,0][1080,119] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {1300006 mType=tappableElement mFrame=[0,0][1080,85] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {2720001 mType=navigationBars mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {2720005 mType=mandatorySystemGestures mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720006 mType=tappableElement mFrame=[0,2205][1080,2340] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {2720024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null} }
+05-08 19:03:17.642 27076 27076 I VRI[MainActivity]@37745ab: synced displayState. AttachInfo displayState=2
+05-08 19:03:17.642 27076 27076 I VRI[MainActivity]@37745ab: setView = com.android.internal.policy.DecorView@600fdc6 IsHRR=false mFlingFrameRateChange=0 TM=true
+05-08 19:03:17.643 27076 27115 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+05-08 19:03:17.643 27076 27076 E unknown:IntBufferBatchMountItem: Skipping batch of MountItems; was stopped [1].
+05-08 19:03:17.644 27076 27076 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.runtime.ReactSurfaceView{eccbf23 V.E...... ......I. 0,0-0,0 #b}
+05-08 19:03:17.644 27076 27076 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.RootViewManager
+05-08 19:03:17.646 27076 27076 I BufferQueueProducer: [](id:69c400000001,api:0,p:-424311056,c:27076) setDequeueTimeout:2077252342
+05-08 19:03:17.646 27076 27076 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@37745ab mNativeObject= 0xb4000075c6bd9f10 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+05-08 19:03:17.646 27076 27076 I BLASTBufferQueue_Java: update, w= 1080 h= 2340 mName = VRI[MainActivity]@37745ab mNativeObject= 0xb4000075c6bd9f10 sc.mNativeObject= 0xb4000075b6aea090 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+05-08 19:03:17.646 27076 27076 I VRI[MainActivity]@37745ab: Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=2 res=0x3 s={true 0xb4000075f6b834f0} ch=true seqId=0
+05-08 19:03:17.646 27076 27076 I VRI[MainActivity]@37745ab: performConfigurationChange setNightDimText nightDimLevel=0
+05-08 19:03:17.646 27076 27076 D VRI[MainActivity]@37745ab: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000075f6b834f0} hwInitialized=true
+05-08 19:03:17.646 27076 27076 D VRI[MainActivity]@37745ab: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+05-08 19:03:17.646 27076 27076 D VRI[MainActivity]@37745ab: Setup new sync=wmsSync-VRI[MainActivity]@37745ab#2
+05-08 19:03:17.646 27076 27076 I VRI[MainActivity]@37745ab: Creating new active sync group VRI[MainActivity]@37745ab#3
+05-08 19:03:17.647 27076 27076 D VRI[MainActivity]@37745ab: registerCallbacksForSync syncBuffer=false
+05-08 19:03:17.647 27076 27125 D VRI[MainActivity]@37745ab: Received frameDrawingCallback syncResult=0 frameNum=1.
+05-08 19:03:17.647 27076 27125 I VRI[MainActivity]@37745ab: mWNT: t=0xb400007636b8ac50 mBlastBufferQueue=0xb4000075c6bd9f10 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+05-08 19:03:17.647 27076 27125 I VRI[MainActivity]@37745ab: Setting up sync and frameCommitCallback
+05-08 19:03:17.649 27076 27115 I BLASTBufferQueue: [VRI[MainActivity]@37745ab#1](f:0,a:0,s:0) onFrameAvailable the first frame is available
+05-08 19:03:17.649 27076 27115 I SurfaceComposerClient: apply transaction with the first frame. layerId: 4487, bufferData(ID: 116290534506500, frameNumber: 1)
+05-08 19:03:17.649 27076 27115 I VRI[MainActivity]@37745ab: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+05-08 19:03:17.649 27076 27115 D HWUI    : CFMS:: SetUp Pid : 27076    Tid : 27115
+05-08 19:03:17.649 27076 27076 D VRI[MainActivity]@37745ab: reportDrawFinished seqId=0
+05-08 19:03:17.656 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=navigationBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:03:17.657 27076 27076 I InsetsSourceConsumer: applyRequestedVisibilityToControl: visible=true, type=statusBars, host=com.amovi.app/com.amovi.app.MainActivity
+05-08 19:03:17.661 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:03:17.664 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:03:17.664 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:03:17.664 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:03:17.664 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:03:17.664 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:03:17.664 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:03:17.725 27076 27076 D VRI[MainActivity]@37745ab: mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb4000075f6b834f0}
+05-08 19:03:17.725 27076 27076 D InputMethodManagerUtils: startInputInner - Id : 0
+05-08 19:03:17.725 27076 27076 I InputMethodManager: startInputInner - IInputMethodManagerGlobalInvoker.startInputOrWindowGainedFocus
+05-08 19:03:17.727 27076 27076 I InputMethodManager: handleMessage: setImeVisibility visible=false
+05-08 19:03:17.727 27076 27076 D InsetsController: hide(ime(), fromIme=false)
+05-08 19:03:17.727 27076 27076 I ImeTracker: com.amovi.app:37a59124: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-08 19:03:17.727 27076 28496 D InputTransport: Input channel constructed: 'ClientS', fd=263
+05-08 19:03:20.196 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:03:20.196 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:03:20.196 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:03:20.196 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:03:20.196 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:03:20.196 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:03:20.204 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:03:20.208 27076 27122 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+05-08 19:03:20.770 27076 27076 D ScrollView: initGoToTop
+05-08 19:03:20.774 27076 28470 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:03:20.775 27076 28655 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:03:20.775 27076 28655 I Kumiho-Kumiho: getPackageName: com.amovi.app
+05-08 19:04:52.394 27076 27076 I VRI[MainActivity]@37745ab: ViewPostIme pointer 0
+05-08 19:04:52.396 27076 27076 I VRI[MainActivity]@37745ab: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@37745ab
+05-08 19:04:52.396 27076 27076 I VRI[MainActivity]@37745ab: ViewPostIme pointer 1
+05-08 19:04:52.422 27076 27076 W [RNScreens]: backTitleVisible prop is not available on Android
+05-08 19:04:52.422 27076 27076 W [RNScreens]: backTitleFontFamily prop is not available on Android
+05-08 19:04:52.422 27076 27076 W [RNScreens]: disableBackButtonMenu prop is not available on Android
+05-08 19:04:52.422 27076 27076 W [RNScreens]: largeTitleFontFamily prop is not available on Android
+05-08 19:04:52.422 27076 27076 W [RNScreens]: largeTitleFontWeight prop is not available on Android
+05-08 19:04:52.422 27076 27076 W [RNScreens]: largeTitleHideShadow prop is not available on Android
+05-08 19:04:52.947 27076 27076 D ScrollView: initGoToTop
+05-08 19:04:52.949 27076 27076 D AutofillManager: view not autofillable - not passing ime action check
+05-08 19:04:52.949 27076 27076 D AutofillManager: view not autofillable - not passing ime action check
+05-08 19:04:52.952 27076 27076 D AutofillManager: view not autofillable - not passing ime action check
+05-08 19:04:55.398 27076 27076 I VRI[MainActivity]@37745ab: call setFrameRateCategory for touch hint category=no preference, reason=boost timeout, vri=VRI[MainActivity]@37745ab
