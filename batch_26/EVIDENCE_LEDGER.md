@@ -104,18 +104,57 @@
 
 **Verdict: PASS — code merged; founder must still revoke the old Tenor key on Google Cloud Console (was committed to public companion git history pre-batch_26)**
 
-### V6 — Phase 4: rc14 build initiated but device tests deferred
+### V6 — Phase 4: rc14 build complete; Layer 1 + Layer 3 partial-pass on device
 
 **Evidence:**
-- EAS build kicked at 2026-05-10T~14:55 with `eas build --profile preview --platform android --non-interactive`
-- Build log: `round-trips/batch_26/PHASE_4_RC14_BUILD.log`
-- Last log line: "Uploading to EAS Build (0 / 1.2 GB)" — local upload phase, slow on this connection
-- EAS env updated with new vars (created via `eas env:create`):
-  - `EXPO_PUBLIC_GIPHY_API_KEY` → preview env (sensitive visibility)
-  - `EXPO_PUBLIC_GEMINI_API_KEY` → preview env (sensitive visibility)
-- Status: in-flight upload; build will queue once upload completes
+- EAS build `3a1603ea-c668-4f99-9a96-8a4da2ea1432` FINISHED at 2026-05-10T15:32:37; commit `2f916a293b3712a464ee9778725cd2c0c5b9519c` (= local HEAD `2f916a29` with the Phase 3.5 GIPHY migration). APK URL: `https://expo.dev/artifacts/eas/8b1Z8hyGMyRZX7imgNnV8y.apk` (173 MB).
+- Build profile: `preview`. Distribution: internal. Version: `1.1.0-rc9` (D-07-01 carry-forward — appVersionSource=remote auto-version held). Fingerprint: `d68ec00e678353b0ec2ec48ff8d26987d4c6366c`.
+- `adb -s RFCY81H4F9Z install -r /tmp/rc14.apk` → "Success". `dumpsys package com.amovi.app` confirms `lastUpdateTime=2026-05-10 15:33:59`.
+- **CAVEAT — env vars not in this APK:** rc14 was queued BEFORE `eas env:create` added `EXPO_PUBLIC_GIPHY_API_KEY` and `EXPO_PUBLIC_GEMINI_API_KEY` to the `preview` env. EAS env values bind at queue time. Build log line "No environment variables with visibility 'Plain text' and 'Sensitive' found for the 'preview' environment on EAS." confirms. The migration code is in the APK; only the GIPHY key is empty (degraded behavior: GIF picker calls return 401 → fallback empty list; "powered by GIPHY" badge still renders since it's static UI). rc15 with env vars in place is the next-session ask.
 
-**Verdict: DEFERRED — rc14 build artifact not yet available; Phase 4 device tests to resume in next session once APK lands**
+#### Layer 1 SMOKE — partial pass
+
+**Component 1 (Cold start → Landing screen → screenshot auth):** ✅ PASS
+- Force-stop + monkey-launch + 8s wait + screenshot.
+- `screenshots/b26_01_coldstart.png` shows: amovi. wordmark (italic lowercase amber, batch_10 D-06-01 fix rendering correctly), "where memes meet matches" tagline, 4 auth buttons (Continue with phone / Google / Instagram / Snapchat), legal links, "been here before? sign in", **ZERO DevBypass UI elements** (M-01 closure held).
+
+**Component 11 (Logcat aggregate, 0 FATAL):** ✅ PASS
+- `adb logcat -d -t 500 *:E | grep -E "FATAL|AndroidRuntime|Exception|com.amovi"` returns 0 hits across full Phase 4 partial session.
+- Only system errors found: `WifiStaIfaceAidlImpl getCachedScanData` Samsung wifi driver chatter (not app-related).
+
+**Component 2 (Auth Phone OTP — phone entry → OTP screen):** ✅ PARTIAL PASS
+- Tap "Continue with phone" → PhoneEntryScreen renders with brand voice ("drop your digits 📱", "we'll slide into your texts with a code", "no cap, we don't spam ❤️"), country code default `+1`, encrypted-and-never-shared trust note. Screenshot: `b26_05_phone_entry.png`.
+- Type `5555550100` → digits visible in input field. Screenshot: `b26_07_phone_typed2.png`.
+- Tap "send code" → OTPScreen renders with "prove you're real 👀" header, masked phone `+15•••••00`, 6-digit input boxes, 27s resend timer, "we promise the code is on its way" subtitle. Screenshot: `b26_09_otp_screen.png`.
+- OTP submission via ADB blocked by single-digit-input auto-advance timing. Filed as **D-26-03 (P3)** — OTP single-digit input boxes interact badly with `adb shell input text` (keystrokes dropped during box transitions). Doesn't impact human users.
+
+#### Layer 3 — Design QA on 3 traversed screens
+
+**Landing screen** (`b26_01_coldstart.png`):
+- Wordmark "amovi." (lowercase + period, italic, amber #FFAA00) — correct per batch_10 D-06-01
+- Dark theme (void / surface tokens)
+- 4 auth pill buttons with brand-correct iconography (phone icon, Google G, Instagram gradient, Snapchat ghost)
+- Touch targets visually ≥48dp
+- ZERO DevBypass UI (M-01 closure held)
+
+**PhoneEntryScreen** (`b26_05_phone_entry.png`):
+- Wordmark consistent
+- Brand voice copy ("drop your digits 📱", "no cap, we don't spam ❤️")
+- amber-bordered input on focus
+- "encrypted & never shared" trust note with shield icon
+- Carousel progress dots (1 of 3 active)
+- Marketing-tag carousel below ("memes > pickup lines | food compatibility > zodiac signs | first 100 testers · McKinney/Dallas")
+
+**OTPScreen** (`b26_09_otp_screen.png`):
+- Wordmark consistent
+- Header "prove you're real 👀"
+- Phone masking `+15•••••00` (correct PII redaction)
+- 6 input boxes with amber focus indicator
+- Countdown timer with clock icon
+- "didn't get it? resend" surfaces after countdown expires
+- "device verified" green-shield badge for previously-verified device
+
+**Verdict: PARTIAL PASS** — rc14 successfully installed; Layer 1 + Layer 3 partial validation completed on device; Layer 2 + Layer 4-8 deferred to next session with rc15 (env-var-complete build) for full GIF API testing. Filed D-26-03 as new finding.
 
 ## Layered nuclear test results
 
