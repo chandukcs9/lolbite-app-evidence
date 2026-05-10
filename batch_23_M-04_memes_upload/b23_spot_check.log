@@ -1,0 +1,32 @@
+Listing Storage memes/* ...
+STORAGE_MEMES_COUNT=17072
+Sample paths (5):
+  memes/AdviceAnimals/10gj1jw.jpg
+  memes/AdviceAnimals/10xyybj.jpg
+  memes/AdviceAnimals/116gebc.png
+  memes/AdviceAnimals/11os4tb.jpg
+  memes/AdviceAnimals/1271swf.png
+
+Spot-check 20 random files:
+  PASS  memes/unknown/1o0i9f1.jpeg (.jpeg status:200 bytes:[ff d8 ff db])
+  PASS  memes/unknown/y2twyc.jpg (.jpg status:200 bytes:[ff d8 ff e0])
+  PASS  memes/RelationshipMemes/1kd76er.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4c/v4c_0477.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4/v4_1582.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/unknown/1mfb3dd.jpeg (.jpeg status:200 bytes:[ff d8 ff db])
+  PASS  memes/v4/v4_1419.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4c/v4c_2081.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4c/v4c_2743.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/marvelmemes/ngt4cx.jpg (.jpg status:200 bytes:[ff d8 ff e0])
+  PASS  memes/v4c/v4c_2491.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4b/v4b_1064.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/MemeEconomy/g9ckxf.jpg (.jpg status:200 bytes:[ff d8 ff e0])
+  PASS  memes/v4/v4_2013.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/ghosting/ghosting_0023.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4c/v4c_2647.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4/v4_1844.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4/v4_1790.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4/v4_2674.png (.png status:200 bytes:[89 50 4e 47])
+  PASS  memes/v4b/v4b_0644.png (.png status:200 bytes:[89 50 4e 47])
+
+SPOT_CHECK_RESULT=20/20 PASS
