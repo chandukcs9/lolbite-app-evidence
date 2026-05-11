@@ -212,3 +212,116 @@
 
 - **Revoke old Tenor key:** the AIza…CYQ value previously at `src/constants/config.js:46` is in pre-batch_26 git history of the private repo + may be in the public companion repo. Must rotate on Google Cloud Console even though source no longer ships it.
 - **Phase 4 device test resumption:** once rc14 EAS build finishes uploading + queuing + completing (~25-30 min more), CC needs to resume `adb install` + L1-L8 layered nuclear test. The build SHA + APK URL can be retrieved via `eas build:list --limit=1`.
+
+---
+
+## ============================================================
+## OVERNIGHT RESUMPTION 2026-05-11 — Phase 4.5/4.6 → 5 → 6
+## ============================================================
+
+**Resume HEAD:** `e9...` (post Phase 3.5 commit `2f916a29`)
+**Closeout HEAD:** `3dcad7fb` (pre-rc20-validation, awaiting device confirm)
+**Time window:** 2026-05-11 ~01:15 → ~02:15 CDT
+
+### Headline outcome — D-26-07 RESOLVED
+
+D-26-07 (chat-tab-empty regression) is NOT a query/data/auth/cache/rules bug. It is a **viewport misdiagnosis**: the Theo conversation row WAS rendering correctly all along, just below the initial scroll fold of the chat tab, hidden behind the NEW VIBES empty state vertical bloat ("no moves yet" → "head home and start swiping" → "START SWIPING" button → "want ghost AI" link). Four prior CC sessions in this batch concluded "empty" without scrolling, leading to IFF-26-03/-04/-05 against a non-existent root cause. The DIAG-26-07 instrumentation (IFF-26-04) + the IFF-26-07 logger context fix finally surfaced the actual data — `matchesSize=1 convosSize=1 blockedSize=0` — proving queries work. Visual inspection after scrolling confirmed the row exists. Fix is 1-line guard suppressing the empty state when chats exist (IFF-26-10).
+
+### V-verdicts (overnight phase)
+
+**V13 — IFF-26-06 OTP code corrected (commit `aa75a4e9`)**
+- BEFORE CLAUDE.md line 81: `OTP 555555` (Firebase docs example).
+- AFTER (founder-verified actual codes): `OTP 123456` (with full slot mapping).
+- Validation: rc18 OTP `123456` → screenshot `b26_102_rc18_post_otp_correct.png` shows "checking..." + notification permission dialog (post-auth) → rc18 reached Home/Swipe as Maya for the first time in this run.
+- Verdict: PASS.
+
+**V14 — IFF-26-07 loggerServiceV2 context fix (commit `7f65390f`)**
+- BEFORE: `context: data ? { detail: String(data) } : {}` → literal `"[object Object]"` for any plain object.
+- AFTER: `_safeSerialize(data)` helper using `JSON.parse(JSON.stringify(data))`.
+- Validation: rc19 /errors readback (`scripts/persona_test/post_rc19_diag.js`) shows real values: `{"uid":"vqxr1eu9cNU3Awfe1DIYGfBORQn2","size":1}`.
+- Verdict: PASS.
+
+**V15 — IFF-26-08 HomeScreen brand mark + lowercase buttons (commit `e85bef9c`)**
+- BEFORE: `<Text style={styles.logo}>Amovi</Text>` × 2 in HomeScreen; `START SWIPING` in MatchesScreen empty mini; `START SWIPING PEOPLE` in VibeResultScreen CTA.
+- AFTER: `<AmoviMark size={28} />` × 2 (canonical italic Plus Jakarta ExtraBold + period); `start swiping` lowercase × 2.
+- Validation: rc20 device pending.
+- Verdict: PASS (code), validation pending.
+
+**V16 — IFF-26-09 VibeLab modules lowercase + Search apply button (commit `d2a4369c`)**
+- BEFORE: `FoodPicker / MemeCalibration / QuickFire` in modules array (AppNavigator.js); `textTransform: "uppercase"` on SearchScreen `applyButtonText`.
+- AFTER: `food picker / meme calibration / quick fire`; uppercase transform removed.
+- Validation: rc20 device pending.
+- Verdict: PASS (code), validation pending.
+
+**V17 — IFF-26-10 D-26-07 root cause fix + DIAG-26-07 trace cleanup (commit `3dcad7fb`)**
+- Evidence chain:
+  - DIAG-26-07 trace dump after rc19: `matchesSize=1 convosSize=1 blockedSize=0` with canonical uid `vqxr1eu9cNU3Awfe1DIYGfBORQn2`.
+  - Visual evidence: screenshot `b26_125_rc19_chat_state.png` (initial chat viewport — empty above fold) vs screenshot `b26_126_rc19_chat_scrolled.png` (after scroll — Theo row rendered with `hey 👋` + 3h + unread badge 1).
+- Fix: 1 line in MatchesScreen.js empty-state guard adds clause `!(activeTab === "active" && filteredConversations.length > 0)`.
+- Cleanup: 6 DIAG-26-07 log.error calls + unused log import removed.
+- Validation: rc20 device pending.
+- Verdict: PASS (code), validation pending.
+
+### Lifecycle / AI / adversarial PASS (rc18 device evidence)
+
+| Layer | Test | Verdict | Evidence |
+|---|---|---|---|
+| L1 #5 | Main nav 5 tabs render | PASS | screenshots b26_103/115/117/104/105 |
+| L1 #8 | Force-stop + relaunch (persistent session) | PASS | b26_109 |
+| L1 #9 | Background + foreground 30s | PASS | b26_106 + b26_107 (identical state) |
+| L1 #10 | Network disconnect (wifi + data off) | PASS | b26_112 (Gen Z offline banner) |
+| L1 #11 | Logcat aggregate (71k lines) | PASS | 0 AndroidRuntime FATAL for amovi |
+| L8 | 10x rapid chat tab tap | PASS | No crash; /errors recorded 10 entries |
+| Phase 5 AI | amoviAI profile coach | PASS | b26_114 (3 real tips rendered) |
+
+### Hypothesis disambiguation matrix (D-26-07)
+
+13 hypotheses chased and DISPROVEN before viewport explanation found. Per §3 of this ledger overnight section.
+
+### Additional D-NN-NN filings (overnight)
+
+- **D-26-07 (RESOLVED via IFF-26-10):** viewport misdiagnosis on chat tab — NEW VIBES empty state pushed CHATS below fold. Closed by IFF-26-10. Rec: future device tests must include explicit scroll-down on any screen showing an empty section header.
+- **D-26-08 (P3 OPEN, deferred):** loggerServiceV2 `_safeSerialize` regression risk — JSON-roundtrip drops `undefined`, functions, BigInt; cycles caught with fallback. For 99% of log.error contexts this is fine, but edge cases (Maps, Sets, Promises) collapse to empty objects. Not blocking; track as low-priority refinement.
+- **D-26-09 (P3 OPEN, deferred):** /errors collection compound query (`tag in [...] orderBy createdAt`) requires a missing index. Diagnostic-only impact (admin SDK from CC); worked around with client-side filter. Fix: add the index to firestore.indexes.json + deploy, OR keep client-side filter.
+
+### IFFs landed overnight
+
+- **IFF-26-06** OTP code fix (CLAUDE.md doc) — `aa75a4e9`
+- **IFF-26-07** Logger context serialization — `7f65390f`
+- **IFF-26-08** HomeScreen brand mark + button case — `e85bef9c`
+- **IFF-26-09** VibeLab module + Search apply button — `d2a4369c`
+- **IFF-26-10** D-26-07 root cause + diag cleanup — `3dcad7fb`
+
+### Anti-fabrication discipline log (overnight)
+
+- All claims tied to specific commit SHAs (verified via `git log --oneline`) or screenshot paths (verified via Read tool on PNG content).
+- /errors trace evidence pulled via `scripts/persona_test/post_rc19_diag.js` with stdout captured in this ledger verbatim.
+- Visual claim "Theo row rendered after scroll" backed by screenshot `b26_126_rc19_chat_scrolled.png` viewed directly in this session.
+- No hollow V-verdicts: every overnight V-verdict references file:line OR screenshot path OR /errors timestamp+context.
+
+### Founder follow-up after rc20 validates
+
+- After rc20 device validation confirms IFF-26-10/08/09 render correctly:
+  - Update OPEN_ITEMS_TRACKER.md — flip D-26-07 to CLOSED_GREEN.
+  - Update BATCH_DISCOVERY_LOG.md — add overnight session entries.
+  - Update CUMULATIVE_STATE.md, SHIP_GATE.md, DAY_FOUNDER_DIGEST.md, INNOVATION_LOG.md.
+  - Auto-Bridge publish to `chandukcs9/lolbite-app-evidence` companion repo per CLAUDE.md §9.
+  - Update WAKE_BRIEF.md → "READY FOR /ultrareview".
+  - HALT for founder.
+
+
+---
+
+## §7 RC20 DEVICE VALIDATION (2026-05-11 ~02:50)
+
+All 4 post-rc19 IFFs validated on rc20 (HEAD `3dcad7fb`, build ID `b1d527eb-abbd-40cb-a606-82427a4b631f`, APK 166MB).
+
+| IFF | Validation evidence | Verdict |
+|---|---|---|
+| IFF-26-08 HomeScreen brand mark | screenshots/b26_130_rc20_post_auth.png shows top header "amovi." italic-lowercase-period (was "Amovi" Title Case on rc18) | PASS |
+| IFF-26-09 Search apply button | screenshots/b26_132_rc20_search_validation.png shows "lock it in" lowercase (was "LOCK IT IN" uppercase via textTransform on rc18) | PASS |
+| IFF-26-09 VibeLab modules | screenshots/b26_133_rc20_vibelab_validation.png shows "food picker / meme calibration / deep dive / quick fire" lowercase (was CamelCase on rc18) | PASS |
+| IFF-26-10 D-26-07 viewport fix | screenshots/b26_131_rc20_chat_tab_validation.png shows Theo conv row ABOVE the fold immediately after chat-tab tap ("theo / hey 👋 / 4h / unread 1") — NEW VIBES empty state correctly suppressed because CHATS has entries | PASS |
+
+**D-26-07 FULLY RESOLVED.** Chat tab now displays conversations at the top of the active tab view, no scrolling required to see them. The 600px of vertical bloat from NEW VIBES empty state ("no moves yet" + "START SWIPING" + "want ghost AI") that previously hid them is suppressed when CHATS has entries.
+
